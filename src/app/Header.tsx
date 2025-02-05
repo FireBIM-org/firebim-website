@@ -8,28 +8,21 @@ export default function Header() {
         <div className="flex justify-between items-center py-4">
           <div className="flex-shrink-0">
             <Link href="/" className="text-2xl font-bold text-blue-600">
-              FireBIM
-              <Image src="/assets/firebim-logo.png" alt="FireBIM" width={32} height={32} />
+              <span className="flex items-center">
+                FireBIM
+                <Image src="/assets/firebim-logo.png" alt="FireBIM" width={32} height={32} className="ml-2" />
+              </span>
             </Link>
           </div>
           <nav className="hidden md:flex space-x-10">
             <Link href="#about" className="text-gray-500 hover:text-gray-900">
               About
             </Link>
-            <Link href="#features" className="text-gray-500 hover:text-gray-900">
-              Features
-            </Link>
-            <Link href="#collaborators" className="text-gray-500 hover:text-gray-900">
-              Collaborators
-            </Link>
             <Link href="#partners" className="text-gray-500 hover:text-gray-900">
               Partners
             </Link>
             <Link href="#faq" className="text-gray-500 hover:text-gray-900">
               FAQ
-            </Link>
-            <Link href="#contact" className="text-gray-500 hover:text-gray-900">
-              Contact
             </Link>
           </nav>
         </div>
