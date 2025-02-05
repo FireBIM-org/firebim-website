@@ -1,5 +1,4 @@
 import Brands from "@/components/Brands";
-import Image from "next/image";
 
 export default function Home() {
   return (
@@ -9,11 +8,11 @@ export default function Home() {
         <h1 className="text-4xl sm:text-6xl font-bold mb-4">FireBIM</h1>
         <p className="text-lg sm:text-2xl mb-8">
           Accounting for fire safety engineering using Building Information Modelling
-          </p>
+        </p>
         <a
           className="rounded-full bg-white text-blue-600 hover:bg-gray-200 transition-colors text-lg sm:text-xl py-3 px-8"
           href="#about"
-          >
+        >
           Learn More
         </a>
       </section>
@@ -48,7 +47,9 @@ export default function Home() {
       <section id="partners" className="py-20">
         <h2 className="text-3xl sm:text-4xl font-bold text-center mb-12">Partners</h2>
         <p className="text-center max-w-2xl mx-auto">FireBIM gathers 22 partners from 5 countries committed to enabling fire safety engineering with faster, more precise, user-centred applications while supporting integration with other AEC standards and tools. </p>
-        <Brands />
+        <div className="max-w-6xl mx-auto">
+          <Brands />
+        </div>
       </section>
 
       {/* FAQ Section */}
