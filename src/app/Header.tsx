@@ -14,14 +14,26 @@ export default function Header() {
               </span>
             </Link>
           </div>
-          <nav className="hidden md:flex space-x-10">
-            <Link href="#about" className="text-gray-500 hover:text-gray-900">
+          <nav className="hidden md:flex space-x-6">
+            <Link href="/#about" className="text-gray-500 hover:text-gray-900">
               About
             </Link>
-            <Link href="#partners" className="text-gray-500 hover:text-gray-900">
+            <Link href="/#partners" className="text-gray-500 hover:text-gray-900">
               Partners
             </Link>
-            <Link href="#faq" className="text-gray-500 hover:text-gray-900">
+            <Link href="/reference_platform" className="text-gray-500 hover:text-gray-900">
+              Platform
+            </Link>
+            <Link href="/documentation" className="text-gray-500 hover:text-gray-900">
+              Docs
+            </Link>
+            <Link href="/downloads" className="text-gray-500 hover:text-gray-900">
+              Downloads
+            </Link>
+            <Link href="/deliverables" className="text-gray-500 hover:text-gray-900">
+              Deliverables
+            </Link>
+            <Link href="/#faq" className="text-gray-500 hover:text-gray-900">
               FAQ
             </Link>
           </nav>
