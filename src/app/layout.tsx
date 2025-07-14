@@ -33,14 +33,15 @@ export default function RootLayout({
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png" />
         <link rel="manifest" href="/favicon/site.webmanifest" />
-        <GoogleAnalytics/>
+        <GoogleAnalytics />
       </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        <div className="min-h-screen flex flex-col font-[family-name:var(--font-geist-sans)]">
-          <Header />
-          <div className="p-8 sm:pt-20 pb-0 flex-grow">
+        className={`${geistSans.variable} ${geistMono.variable} antialiased
+        font-[family-name:var(--font-geist-sans)]`}>
+        <Header />
+        <div className="flex flex-col min-h-screen">
+          <div className="flex flex-col flex-grow
+          pt-20 pb-0 sm:px-8 md:px-20">
             {children}
           </div>
           <Footer />
