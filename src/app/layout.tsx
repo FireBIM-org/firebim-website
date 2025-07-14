@@ -40,7 +40,7 @@ export default function RootLayout({
       >
         <div className="min-h-screen flex flex-col font-[family-name:var(--font-geist-sans)]">
           <Header />
-          <div className="p-8 sm:p-20 flex-grow">
+          <div className="p-8 sm:pt-20 pb-0 flex-grow">
             {children}
           </div>
           <Footer />
