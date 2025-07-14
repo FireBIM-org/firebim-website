@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <main>
       {/* Hero Section */}
-      <section className="flex flex-col items-center justify-center text-center py-20 bg-gradient-to-r from-blue-500 to-purple-600 text-white">
+      <section className="px-4 flex flex-col items-center justify-center text-center py-20 bg-gradient-to-r from-blue-500 to-purple-600 text-white">
         <h1 className="text-4xl sm:text-6xl font-bold mb-4">FireBIM</h1>
         <p className="text-lg sm:text-2xl mb-8">
           Accounting for fire safety engineering using Building Information Modelling
@@ -18,7 +18,7 @@ export default function Home() {
       </section>
 
       {/* About Section */}
-      <section id="about" className="py-20">
+      <section id="about" className="px-4 py-20">
         <h2 className="text-3xl sm:text-4xl font-bold text-center mb-12">About</h2>
         <p className="text-center max-w-2xl mx-auto">
           The FireBIM platform relies on Building Information Modelling (BIM), Open Data standards, semantic data modelling, and web technologies specifically addressing international collaboration and computational interoperability. It resembles an interpreter, inspector, and validator of the regulations, thus also helping authorities facilitate and regulate fire safety more efficiently. Using FireBIM, design teams will be digitally assisted to create safer and better buildings cost-effectively. The FireBIM platform will purposefully be open source, providing the infrastructure for developers to bring the FireBIM concept to new countries and applications.
@@ -27,7 +27,7 @@ export default function Home() {
       </section>
 
       {/* Aim Section */}
-      <section id="aim" className="py-20 bg-gray-100">
+      <section id="aim" className="px-4 py-20 bg-gray-100">
         <h2 className="text-3xl sm:text-4xl font-bold text-center mb-12">Aim</h2>
         <p className="text-center max-w-2xl mx-auto">
           The FireBIM project aims to harmonize and implement the fire codes of the participating countries in an open-source, web-based BIM platform for fire safety assessment that facilitates (inter)national fire safety documentation and compliance from the early design stages. By relying on state-of-the-art web technologies, the platform suggests contextual fire safety improvements to early-stage design proposals based on the relevant national, regional, and local building codes.
@@ -44,7 +44,7 @@ export default function Home() {
       </section>
 
       {/* Partners Section */}
-      <section id="partners" className="py-20">
+      <section id="partners" className="px-4 py-20">
         <h2 className="text-3xl sm:text-4xl font-bold text-center mb-12">Partners</h2>
         <p className="text-center max-w-2xl mx-auto">FireBIM gathers 22 partners from 5 countries committed to enabling fire safety engineering with faster, more precise, user-centred applications while supporting integration with other AEC standards and tools. </p>
         <div className="max-w-6xl mx-auto">
@@ -53,7 +53,7 @@ export default function Home() {
       </section>
 
       {/* FAQ Section */}
-      <section id="faq" className="py-20 bg-gray-100">
+      <section id="faq" className="px-4 py-20 bg-gray-100">
         <h2 className="text-3xl sm:text-4xl font-bold text-center mb-12">FAQ</h2>
         <div className="max-w-2xl mx-auto">
           <p>
