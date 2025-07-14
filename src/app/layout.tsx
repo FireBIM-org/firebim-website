@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "./Header";
 import Footer from "./Footer";
 import ScrollToTop from "@/components/ScrollToTop";
+import GoogleAnalytics from "@/components/GoogleAnalytics";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -32,6 +33,7 @@ export default function RootLayout({
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png" />
         <link rel="manifest" href="/favicon/site.webmanifest" />
+        <GoogleAnalytics/>
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
