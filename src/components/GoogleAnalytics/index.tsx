@@ -6,18 +6,20 @@ export default function GoogleAnalytics() {
   if (!GA_ID) return null
   return (
     <>
-      {/* Loads gtag.js after hydration */}
-      <Script
+      <Script async
         src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}
-        strategy="afterInteractive"
       />
-      {/* Bootstraps dataLayer & initial pageview */}
-      <Script id="gtag-init" strategy="afterInteractive">{`
+      <Script id="gtag-init">{`
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-        gtag('consent', 'default', {analytics_storage: 'denied'});
-        gtag('config', '${GA_ID}', { page_path: window.location.pathname });
+        gtag('consent', 'default', {
+          ad_storage:        'denied',
+          analytics_storage: 'denied',
+          ad_user_data:      'denied',
+          ad_personalization:'denied'
+        });
+        gtag('config', '${GA_ID}');
       `}</Script>
     </>
   )
