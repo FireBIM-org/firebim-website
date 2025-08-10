@@ -4,7 +4,8 @@ import "./globals.css";
 import Header from "./Header";
 import Footer from "./Footer";
 import ScrollToTop from "@/components/ScrollToTop";
-import GoogleAnalytics from "@/components/GoogleAnalytics";
+
+import Analytics from "@/components/Analytics";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -33,15 +34,15 @@ export default function RootLayout({
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png" />
         <link rel="manifest" href="/favicon/site.webmanifest" />
-        <GoogleAnalytics />
+
+        <Analytics />
+
       </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased
-        font-[family-name:var(--font-geist-sans)]`}>
+        className={`${geistSans.variable} ${geistMono.variable} antialiased font-[family-name:var(--font-geist-sans)]`}>
         <Header />
         <div className="flex flex-col min-h-screen">
-          <div className="flex flex-col flex-grow
-          pt-20 pb-0 sm:px-8 md:px-20">
+          <div className="flex flex-col flex-grow pt-20 pb-0 sm:px-8 md:px-20">
             {children}
           </div>
           <Footer />
