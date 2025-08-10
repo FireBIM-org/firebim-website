@@ -4,7 +4,7 @@ export default function Analytics() {
   return (
     <>
       <script
-        async
+        defer
         src="https://cloud.umami.is/script.js"
         data-website-id={UMAMI_ANALYTICS_WEBSITE_ID}
       ></script>
