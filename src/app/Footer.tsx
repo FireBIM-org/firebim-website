@@ -10,6 +10,10 @@ export default function Footer() {
             <Link href="/#about" className="text-xs text-gray-300 hover:underline mt-1 inline-block">
               About
             </Link>
+            <span className='text-gray-300'> • </span>
+            <Link href="/privacy" className="text-xs text-gray-300 hover:underline mt-1 inline-block">
+              Privacy Policy
+            </Link>
           </p>
         </div>
       </footer>
