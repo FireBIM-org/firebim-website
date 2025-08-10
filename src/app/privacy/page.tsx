@@ -43,7 +43,7 @@ export default function Privacy() {
             </ul>
             
             <p className="mb-6">
-              You can learn more about Umami's privacy practices at{" "}
+              You can learn more about Umami&apos;s privacy practices at{" "}
               <a 
                 href="https://umami.is" 
                 target="_blank" 
@@ -73,7 +73,7 @@ export default function Privacy() {
 
             <h3 className="text-2xl font-bold mb-4 mt-8">Your Rights</h3>
             <p className="mb-6">
-              Since we use privacy-focused analytics that don't collect personal data, there is no personal information to access, modify, or delete. 
+              Since we use privacy-focused analytics that don&apos;t collect personal data, there is no personal information to access, modify, or delete. 
               However, if you have any concerns about privacy or wish to contact us regarding this policy, please reach out to us.
             </p>
 
