@@ -2,56 +2,73 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useState } from "react";
+
+const navigationLinks = [
+  { href: "/#about", label: "About" },
+  { href: "/#partners", label: "Partners" },
+  { href: "/#news", label: "News" },
+  { href: "/reference_platform", label: "Platform" },
+  { href: "/documentation", label: "Docs" },
+  { href: "/deliverables", label: "Deliverables" },
+];
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const pathname = usePathname();
 
-  const navigationLinks = [
-    { href: "/#about", label: "About" },
-    { href: "/#partners", label: "Partners" },
-    { href: "/reference_platform", label: "Platform" },
-    { href: "/documentation", label: "Docs" },
-    { href: "/downloads", label: "Downloads" },
-    { href: "/deliverables", label: "Deliverables" },
-    { href: "/#faq", label: "FAQ" },
-  ];
+  const isActive = (href: string) =>
+    !href.includes("#") && pathname === href;
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
   return (
-    <header className="bg-white shadow-md fixed top-0 left-0 right-0 z-50">
+    <header className="fixed top-0 left-0 right-0 z-50 border-b border-ink-100 bg-white/90 backdrop-blur-md">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center py-4">
+        <div className="flex h-[72px] items-center justify-between">
           <div className="flex-shrink-0">
-            <Link href="/" className="text-2xl font-bold text-blue-600">
-              <span className="flex items-center">
-                FireBIM
-                <Image src="/assets/firebim-logo.png" alt="FireBIM" width={32} height={32} className="ml-2" />
+            <Link href="/" className="text-xl font-bold tracking-tight text-ink-900">
+              <span className="flex items-center gap-2">
+                <Image src="/assets/firebim-logo.png" alt="FireBIM" width={36} height={36} />
+                Fire<span className="-ml-2 text-flame-600">BIM</span>
               </span>
             </Link>
           </div>
-            {/* Desktop Navigation */}
-          <nav className="hidden md:flex space-x-6">
+
+          {/* Desktop Navigation */}
+          <nav className="hidden md:flex items-center gap-6">
             {navigationLinks.map((link) => (
-              <Link 
+              <Link
                 key={link.href}
-                href={link.href} 
-                className="text-gray-500 hover:text-gray-900"
+                href={link.href}
+                className={`text-sm font-medium transition-colors ${
+                  isActive(link.href)
+                    ? "text-flame-600"
+                    : "text-ink-600 hover:text-ink-900"
+                }`}
               >
                 {link.label}
               </Link>
             ))}
+            <a
+              href="https://app.firebim.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-md bg-flame-600 px-4 py-2 text-sm font-semibold text-white shadow-sm transition-colors hover:bg-flame-700"
+            >
+              Open Platform
+            </a>
           </nav>
 
           {/* Mobile menu button */}
           <div className="md:hidden">
             <button
               onClick={toggleMenu}
-              className="inline-flex align-middle items-center justify-center rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500"
-              aria-expanded="false"
+              className="inline-flex align-middle items-center justify-center rounded-md p-1 text-ink-500 hover:text-ink-800 hover:bg-ink-50 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-flame-500"
+              aria-expanded={isMenuOpen}
             >
               <span className="sr-only">Open main menu</span>
               {!isMenuOpen ? (
@@ -65,20 +82,35 @@ export default function Header() {
               )}
             </button>
           </div>
-        </div>        {/* Mobile Navigation Menu */}
+        </div>
+
+        {/* Mobile Navigation Menu */}
         {isMenuOpen && (
           <div className="md:hidden">
-            <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white border-t border-gray-200">
+            <div className="space-y-1 border-t border-ink-100 bg-white px-2 pt-2 pb-4 sm:px-3">
               {navigationLinks.map((link) => (
-                <Link 
+                <Link
                   key={link.href}
-                  href={link.href} 
-                  className="text-gray-500 hover:text-gray-900 block px-3 py-2 rounded-md text-base font-medium"
+                  href={link.href}
+                  className={`block rounded-md px-3 py-2 text-base font-medium ${
+                    isActive(link.href)
+                      ? "bg-flame-50 text-flame-700"
+                      : "text-ink-600 hover:bg-ink-50 hover:text-ink-900"
+                  }`}
                   onClick={() => setIsMenuOpen(false)}
                 >
                   {link.label}
                 </Link>
               ))}
+              <a
+                href="https://app.firebim.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-2 block rounded-md bg-flame-600 px-3 py-2 text-center text-base font-semibold text-white hover:bg-flame-700"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Open Platform
+              </a>
             </div>
           </div>
         )}

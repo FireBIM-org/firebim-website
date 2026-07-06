@@ -2,33 +2,34 @@ import Link from 'next/link';
 
 export default function NotFound() {
   return (
-    <main className="flex flex-col items-center justify-center min-h-full
-    bg-gradient-to-r from-blue-500 to-purple-600 flex-grow">
-      <div className="text-center text-white px-4">
+    <main className="relative flex min-h-full flex-grow flex-col items-center justify-center overflow-hidden bg-ink-950 py-24">
+      <div className="pointer-events-none absolute inset-x-0 top-0 h-px bg-flame-500/50" />
+
+      <div className="relative px-4 text-center text-white">
         <div className="mb-8">
-          <h1 className="text-9xl font-bold mb-4 opacity-20">404</h1>
-          <h2 className="text-4xl sm:text-6xl font-bold mb-4">Page Not Found</h2>
-          <p className="text-lg sm:text-xl mb-8 max-w-2xl">
+          <h1 className="mb-4 text-9xl font-bold text-flame-600/30">404</h1>
+          <h2 className="mb-4 text-4xl font-bold tracking-tight sm:text-6xl">Page Not Found</h2>
+          <p className="mb-8 max-w-2xl text-lg text-ink-200 sm:text-xl">
             The page you&apos;re looking for doesn&apos;t exist or has been moved.
           </p>
         </div>
-        
-        <div className="space-y-4 sm:space-y-0 space-x-4 sm:flex sm:justify-center">
-          <Link 
+
+        <div className="space-y-4 sm:flex sm:justify-center sm:space-x-4 sm:space-y-0">
+          <Link
             href="/"
-            className="inline-block px-8 py-3 bg-white text-blue-600 font-semibold rounded-lg hover:bg-gray-100 transition-colors duration-200"
+            className="inline-block rounded-md bg-flame-600 px-8 py-3 font-semibold text-white transition-colors hover:bg-flame-700"
           >
             Go Home
           </Link>
-          <Link 
+          <Link
             href="/#about"
-            className="inline-block px-8 py-3 border-2 border-white text-white font-semibold rounded-lg hover:bg-white hover:text-blue-600 transition-colors duration-200"
+            className="inline-block rounded-md border border-ink-600 px-8 py-3 font-semibold text-ink-100 transition-colors hover:border-ink-400 hover:bg-ink-900"
           >
             About
           </Link>
         </div>
-        
-        <div className="mt-12 text-sm opacity-75">
+
+        <div className="mt-12 text-sm text-ink-400">
           <p>If you believe this is an error, please contact us.</p>
         </div>
       </div>

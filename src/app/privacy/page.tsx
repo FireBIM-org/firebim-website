@@ -1,12 +1,13 @@
+import PageHero from "@/components/PageHero";
+
 export default function Privacy() {
   return (
     <main>
-      <section className="flex flex-col items-center justify-center text-center py-20 bg-gradient-to-r from-blue-500 to-purple-600 text-white">
-        <h1 className="text-4xl sm:text-6xl font-bold mb-4">Privacy Policy</h1>
-        <p className="text-lg sm:text-2xl mb-8">
-          How we handle your data and privacy
-        </p>
-      </section>
+      <PageHero
+        title="Privacy Policy"
+        subtitle="How we handle your data and privacy"
+        compact
+      />
 
       <section className="py-20">
         <div className="max-w-4xl mx-auto px-4">
