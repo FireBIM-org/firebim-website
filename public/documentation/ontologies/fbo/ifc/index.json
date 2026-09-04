@@ -1,0 +1,22 @@
+{
+  "ontology_family": "fbo",
+  "country": "ifc",
+  "kind": "mapping",
+  "visibility": "public",
+  "title": "FBO → IFC 4.3 mapping",
+  "short_title": "FBO-IFC mapping",
+  "prefix": "fbo-ifc",
+  "namespace": "https://firebim.org/ontologies/fbo/ifc#",
+  "description": "The official alignment module. Each named individual describes how an FBO term is expressed in IFC 4.3: IFC class and predefined type, property set and property, data type, expected value and whether it is a buildingSMART standard property.",
+  "canonical_family_uri": "https://firebim.org/ontologies/fbo#",
+  "canonical_country_uri": "https://firebim.org/ontologies/fbo/ifc#",
+  "latest_version": "2026.09.04",
+  "latest_stable_version": null,
+  "default_version": "2026.09.04",
+  "url": "https://firebim.org/documentation/ontologies/fbo/ifc/index.json",
+  "available_versions_url": "https://firebim.org/documentation/ontologies/fbo/ifc/versions.json",
+  "latest_url": "https://firebim.org/documentation/ontologies/fbo/ifc/versions/2026.09.04/metadata.json",
+  "latest_ttl_url": "https://firebim.org/documentation/ontologies/fbo/ifc/versions/2026.09.04/fbo-ifc.ttl",
+  "stable_url": null,
+  "api_summary_url": "https://api.firebim.org/ontologies/fbo/ifc"
+}

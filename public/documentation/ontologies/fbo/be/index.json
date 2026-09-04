@@ -1,0 +1,22 @@
+{
+  "ontology_family": "fbo",
+  "country": "be",
+  "kind": "ontology",
+  "visibility": "public",
+  "title": "FBO-BE – Belgium",
+  "short_title": "FBO Belgium",
+  "prefix": "fbo-be",
+  "namespace": "https://firebim.org/ontologies/fbo/be#",
+  "description": "Belgian fire-safety vocabulary with legal definitions, regulation references and links to the core FBO concepts and to IFC.",
+  "canonical_family_uri": "https://firebim.org/ontologies/fbo#",
+  "canonical_country_uri": "https://firebim.org/ontologies/fbo/be#",
+  "latest_version": "2026.09.04",
+  "latest_stable_version": null,
+  "default_version": "2026.09.04",
+  "url": "https://firebim.org/documentation/ontologies/fbo/be/index.json",
+  "available_versions_url": "https://firebim.org/documentation/ontologies/fbo/be/versions.json",
+  "latest_url": "https://firebim.org/documentation/ontologies/fbo/be/versions/2026.09.04/metadata.json",
+  "latest_ttl_url": "https://firebim.org/documentation/ontologies/fbo/be/versions/2026.09.04/fbo-be.ttl",
+  "stable_url": null,
+  "api_summary_url": "https://api.firebim.org/ontologies/fbo/be"
+}

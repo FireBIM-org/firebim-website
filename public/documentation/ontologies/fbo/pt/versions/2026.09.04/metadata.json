@@ -1,0 +1,36 @@
+{
+  "ontology_family": "fbo",
+  "country": "pt",
+  "kind": "ontology",
+  "canonical_family_uri": "https://firebim.org/ontologies/fbo#",
+  "canonical_country_uri": "https://firebim.org/ontologies/fbo/pt#",
+  "version": {
+    "version": "2026.09.04",
+    "status": "draft",
+    "issued_at": "2026-09-04",
+    "published_at": "2026-09-04T13:15:05.311Z",
+    "resource_filename": "fbo-pt.ttl",
+    "url": "https://firebim.org/documentation/ontologies/fbo/pt/versions/2026.09.04/metadata.json",
+    "ttl_url": "https://firebim.org/documentation/ontologies/fbo/pt/versions/2026.09.04/fbo-pt.ttl",
+    "terms_url": "https://firebim.org/documentation/ontologies/fbo/pt/versions/2026.09.04/terms.json",
+    "mapping_url": null,
+    "graph_uri": "https://api.firebim.org/ontologies/fbo/pt/versions/2026.09.04",
+    "ontology_uri": "https://firebim.org/ontologies/fbo/pt#",
+    "version_iri": "https://firebim.org/ontologies/fbo/pt/2026.09.04#",
+    "label": "FBO-PT – Portugal",
+    "description": "FBO Portugal release 2026.09.04 (issued 2026-09-04). Portuguese fire-safety vocabulary with legal definitions, regulation references and links to the core FBO concepts and to IFC.",
+    "imports": [
+      "https://firebim.org/ontologies/fbo#"
+    ],
+    "triple_count": 2394,
+    "class_count": 44,
+    "property_count": 93,
+    "individual_count": 7,
+    "subclass_count": 43,
+    "byte_size": 181804,
+    "sha256": "bff678c5c184815a317dd987662ef50cdc4dbc745e824898e9a68022e0418556",
+    "is_latest": true,
+    "is_stable": false,
+    "is_default": true
+  }
+}

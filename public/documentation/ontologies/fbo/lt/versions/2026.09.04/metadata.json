@@ -1,0 +1,36 @@
+{
+  "ontology_family": "fbo",
+  "country": "lt",
+  "kind": "ontology",
+  "canonical_family_uri": "https://firebim.org/ontologies/fbo#",
+  "canonical_country_uri": "https://firebim.org/ontologies/fbo/lt#",
+  "version": {
+    "version": "2026.09.04",
+    "status": "draft",
+    "issued_at": "2026-09-04",
+    "published_at": "2026-09-04T13:15:05.169Z",
+    "resource_filename": "fbo-lt.ttl",
+    "url": "https://firebim.org/documentation/ontologies/fbo/lt/versions/2026.09.04/metadata.json",
+    "ttl_url": "https://firebim.org/documentation/ontologies/fbo/lt/versions/2026.09.04/fbo-lt.ttl",
+    "terms_url": "https://firebim.org/documentation/ontologies/fbo/lt/versions/2026.09.04/terms.json",
+    "mapping_url": null,
+    "graph_uri": "https://api.firebim.org/ontologies/fbo/lt/versions/2026.09.04",
+    "ontology_uri": "https://firebim.org/ontologies/fbo/lt#",
+    "version_iri": "https://firebim.org/ontologies/fbo/lt/2026.09.04#",
+    "label": "FBO-LT – Lithuania",
+    "description": "FBO Lithuania release 2026.09.04 (issued 2026-09-04). Lithuanian fire-safety vocabulary with legal definitions, regulation references and links to the core FBO concepts and to IFC.",
+    "imports": [
+      "https://firebim.org/ontologies/fbo#"
+    ],
+    "triple_count": 1272,
+    "class_count": 31,
+    "property_count": 31,
+    "individual_count": 9,
+    "subclass_count": 26,
+    "byte_size": 86135,
+    "sha256": "549bc52f4aee17cdf5620b4ab8258681570c6f18896f19bfae1d4f6f4ef0986d",
+    "is_latest": true,
+    "is_stable": false,
+    "is_default": true
+  }
+}

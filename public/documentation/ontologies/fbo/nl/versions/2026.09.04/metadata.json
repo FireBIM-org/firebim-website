@@ -1,0 +1,36 @@
+{
+  "ontology_family": "fbo",
+  "country": "nl",
+  "kind": "ontology",
+  "canonical_family_uri": "https://firebim.org/ontologies/fbo#",
+  "canonical_country_uri": "https://firebim.org/ontologies/fbo/nl#",
+  "version": {
+    "version": "2026.09.04",
+    "status": "draft",
+    "issued_at": "2026-09-04",
+    "published_at": "2026-09-04T13:15:05.243Z",
+    "resource_filename": "fbo-nl.ttl",
+    "url": "https://firebim.org/documentation/ontologies/fbo/nl/versions/2026.09.04/metadata.json",
+    "ttl_url": "https://firebim.org/documentation/ontologies/fbo/nl/versions/2026.09.04/fbo-nl.ttl",
+    "terms_url": "https://firebim.org/documentation/ontologies/fbo/nl/versions/2026.09.04/terms.json",
+    "mapping_url": null,
+    "graph_uri": "https://api.firebim.org/ontologies/fbo/nl/versions/2026.09.04",
+    "ontology_uri": "https://firebim.org/ontologies/fbo/nl#",
+    "version_iri": "https://firebim.org/ontologies/fbo/nl/2026.09.04#",
+    "label": "FBO-NL – Netherlands",
+    "description": "FBO Netherlands release 2026.09.04 (issued 2026-09-04). Dutch fire-safety vocabulary (Bbl) with legal definitions, regulation references and links to the core FBO concepts and to IFC.",
+    "imports": [
+      "https://firebim.org/ontologies/fbo#"
+    ],
+    "triple_count": 2056,
+    "class_count": 29,
+    "property_count": 80,
+    "individual_count": 5,
+    "subclass_count": 33,
+    "byte_size": 121511,
+    "sha256": "a4d21b7fb1bca0f5a031495bff2a5a46b3218b708509f5c2b29a04c462fd5b7f",
+    "is_latest": true,
+    "is_stable": false,
+    "is_default": true
+  }
+}

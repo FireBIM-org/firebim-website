@@ -1,0 +1,22 @@
+{
+  "ontology_family": "ifc",
+  "country": "global",
+  "kind": "ontology",
+  "visibility": "unlisted",
+  "title": "IFC 4.3 (OWL rendering used by the FireBIM API)",
+  "short_title": "IFC 4.3",
+  "prefix": "ifc",
+  "namespace": "https://firebim.org/ontologies/ifc/global#",
+  "description": "Reference ontology consumed by the FireBIM platform sync hook. Not part of the FBO documentation.",
+  "canonical_family_uri": "https://firebim.org/ontologies/ifc#",
+  "canonical_country_uri": "https://firebim.org/ontologies/ifc/global#",
+  "latest_version": "2026.04.23",
+  "latest_stable_version": null,
+  "default_version": "2026.04.23",
+  "url": "https://firebim.org/documentation/ontologies/ifc/global/index.json",
+  "available_versions_url": "https://firebim.org/documentation/ontologies/ifc/global/versions.json",
+  "latest_url": "https://firebim.org/documentation/ontologies/ifc/global/versions/2026.04.23/metadata.json",
+  "latest_ttl_url": "https://firebim.org/documentation/ontologies/ifc/global/versions/2026.04.23/ifc-global.ttl",
+  "stable_url": null,
+  "api_summary_url": "https://api.firebim.org/ontologies/ifc/global"
+}

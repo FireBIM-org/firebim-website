@@ -4,13 +4,17 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
+    "prebuild": "npm run ontologies:build",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "ontologies:build": "node scripts/ontologies/build-registry.mjs",
+    "ontologies:prepare": "node scripts/ontologies/prepare-release.mjs"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",
     "lucide-react": "^1.7.0",
+    "n3": "^2.7.4",
     "next": "15.1.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"

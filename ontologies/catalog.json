@@ -1,0 +1,121 @@
+{
+  "$comment": "Source-of-truth catalog for the public ontology registry served from /documentation/ontologies/. Version folders live under public/documentation/ontologies/<family>/<country>/versions/<version>/ and each contains one .ttl file plus a release.json. Run `npm run ontologies:build` after adding or changing a release.",
+  "registry": {
+    "name": "FireBIM public ontology registry",
+    "base_url": "https://firebim.org/documentation/ontologies",
+    "canonical_base_uri": "https://firebim.org/ontologies/",
+    "api_base_uri": "https://api.firebim.org/ontologies/"
+  },
+  "entries": [
+    {
+      "ontology_family": "fbo",
+      "country": "core",
+      "kind": "ontology",
+      "visibility": "public",
+      "title": "FBO – FireBIM Building Ontology (core)",
+      "short_title": "FBO Core",
+      "prefix": "fbo",
+      "namespace": "https://firebim.org/ontologies/fbo#",
+      "resource_filename": "fbo.ttl",
+      "description": "The European umbrella ontology. Country-agnostic fire-safety concepts (zones, elements, systems, functions, quantities, fire-safety properties) that the national modules link back to via fbo:isLinkedTo / fbo:hasSubitem."
+    },
+    {
+      "ontology_family": "fbo",
+      "country": "be",
+      "kind": "ontology",
+      "visibility": "public",
+      "title": "FBO-BE – Belgium",
+      "short_title": "FBO Belgium",
+      "prefix": "fbo-be",
+      "namespace": "https://firebim.org/ontologies/fbo/be#",
+      "resource_filename": "fbo-be.ttl",
+      "description": "Belgian fire-safety vocabulary with legal definitions, regulation references and links to the core FBO concepts and to IFC."
+    },
+    {
+      "ontology_family": "fbo",
+      "country": "dk",
+      "kind": "ontology",
+      "visibility": "public",
+      "title": "FBO-DK – Denmark",
+      "short_title": "FBO Denmark",
+      "prefix": "fbo-dk",
+      "namespace": "https://firebim.org/ontologies/fbo/dk#",
+      "resource_filename": "fbo-dk.ttl",
+      "description": "Danish fire-safety vocabulary (BR18 and guidelines) with Danish and English labels and definitions, regulation references and links to the core FBO concepts and to IFC."
+    },
+    {
+      "ontology_family": "fbo",
+      "country": "lt",
+      "kind": "ontology",
+      "visibility": "public",
+      "title": "FBO-LT – Lithuania",
+      "short_title": "FBO Lithuania",
+      "prefix": "fbo-lt",
+      "namespace": "https://firebim.org/ontologies/fbo/lt#",
+      "resource_filename": "fbo-lt.ttl",
+      "description": "Lithuanian fire-safety vocabulary with legal definitions, regulation references and links to the core FBO concepts and to IFC."
+    },
+    {
+      "ontology_family": "fbo",
+      "country": "nl",
+      "kind": "ontology",
+      "visibility": "public",
+      "title": "FBO-NL – Netherlands",
+      "short_title": "FBO Netherlands",
+      "prefix": "fbo-nl",
+      "namespace": "https://firebim.org/ontologies/fbo/nl#",
+      "resource_filename": "fbo-nl.ttl",
+      "description": "Dutch fire-safety vocabulary (Bbl) with legal definitions, regulation references and links to the core FBO concepts and to IFC."
+    },
+    {
+      "ontology_family": "fbo",
+      "country": "pt",
+      "kind": "ontology",
+      "visibility": "public",
+      "title": "FBO-PT – Portugal",
+      "short_title": "FBO Portugal",
+      "prefix": "fbo-pt",
+      "namespace": "https://firebim.org/ontologies/fbo/pt#",
+      "resource_filename": "fbo-pt.ttl",
+      "description": "Portuguese fire-safety vocabulary with legal definitions, regulation references and links to the core FBO concepts and to IFC."
+    },
+    {
+      "ontology_family": "fbo",
+      "country": "ifc",
+      "kind": "mapping",
+      "visibility": "public",
+      "title": "FBO → IFC 4.3 mapping",
+      "short_title": "FBO-IFC mapping",
+      "prefix": "fbo-ifc",
+      "namespace": "https://firebim.org/ontologies/fbo/ifc#",
+      "resource_filename": "fbo-ifc.ttl",
+      "description": "The official alignment module. Each named individual describes how an FBO term is expressed in IFC 4.3: IFC class and predefined type, property set and property, data type, expected value and whether it is a buildingSMART standard property."
+    },
+    {
+      "ontology_family": "ifc",
+      "country": "global",
+      "kind": "ontology",
+      "visibility": "unlisted",
+      "title": "IFC 4.3 (OWL rendering used by the FireBIM API)",
+      "short_title": "IFC 4.3",
+      "prefix": "ifc",
+      "namespace": "https://firebim.org/ontologies/ifc/global#",
+      "resource_filename": "ifc-global.ttl",
+      "viewer": false,
+      "description": "Reference ontology consumed by the FireBIM platform sync hook. Not part of the FBO documentation."
+    },
+    {
+      "ontology_family": "rir",
+      "country": "global",
+      "kind": "ontology",
+      "visibility": "unlisted",
+      "title": "RIR (OWL rendering used by the FireBIM API)",
+      "short_title": "RIR",
+      "prefix": "rir",
+      "namespace": "https://firebim.org/ontologies/rir/global#",
+      "resource_filename": "rir-global.ttl",
+      "viewer": false,
+      "description": "Reference ontology consumed by the FireBIM platform sync hook. Not part of the FBO documentation."
+    }
+  ]
+}
