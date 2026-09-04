@@ -1,0 +1,22 @@
+{
+  "ontology_family": "fbo",
+  "country": "dk",
+  "kind": "ontology",
+  "visibility": "public",
+  "title": "FBO-DK – Denmark",
+  "short_title": "FBO Denmark",
+  "prefix": "fbo-dk",
+  "namespace": "https://firebim.org/ontologies/fbo/dk#",
+  "description": "Danish fire-safety vocabulary (BR18 and guidelines) with Danish and English labels and definitions, regulation references and links to the core FBO concepts and to IFC.",
+  "canonical_family_uri": "https://firebim.org/ontologies/fbo#",
+  "canonical_country_uri": "https://firebim.org/ontologies/fbo/dk#",
+  "latest_version": "2026.09.04",
+  "latest_stable_version": null,
+  "default_version": "2026.09.04",
+  "url": "https://firebim.org/documentation/ontologies/fbo/dk/index.json",
+  "available_versions_url": "https://firebim.org/documentation/ontologies/fbo/dk/versions.json",
+  "latest_url": "https://firebim.org/documentation/ontologies/fbo/dk/versions/2026.09.04/metadata.json",
+  "latest_ttl_url": "https://firebim.org/documentation/ontologies/fbo/dk/versions/2026.09.04/fbo-dk.ttl",
+  "stable_url": null,
+  "api_summary_url": "https://api.firebim.org/ontologies/fbo/dk"
+}

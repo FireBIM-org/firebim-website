@@ -1,0 +1,22 @@
+{
+  "ontology_family": "fbo",
+  "country": "nl",
+  "kind": "ontology",
+  "visibility": "public",
+  "title": "FBO-NL – Netherlands",
+  "short_title": "FBO Netherlands",
+  "prefix": "fbo-nl",
+  "namespace": "https://firebim.org/ontologies/fbo/nl#",
+  "description": "Dutch fire-safety vocabulary (Bbl) with legal definitions, regulation references and links to the core FBO concepts and to IFC.",
+  "canonical_family_uri": "https://firebim.org/ontologies/fbo#",
+  "canonical_country_uri": "https://firebim.org/ontologies/fbo/nl#",
+  "latest_version": "2026.09.04",
+  "latest_stable_version": null,
+  "default_version": "2026.09.04",
+  "url": "https://firebim.org/documentation/ontologies/fbo/nl/index.json",
+  "available_versions_url": "https://firebim.org/documentation/ontologies/fbo/nl/versions.json",
+  "latest_url": "https://firebim.org/documentation/ontologies/fbo/nl/versions/2026.09.04/metadata.json",
+  "latest_ttl_url": "https://firebim.org/documentation/ontologies/fbo/nl/versions/2026.09.04/fbo-nl.ttl",
+  "stable_url": null,
+  "api_summary_url": "https://api.firebim.org/ontologies/fbo/nl"
+}

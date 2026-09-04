@@ -1,0 +1,36 @@
+{
+  "ontology_family": "fbo",
+  "country": "be",
+  "kind": "ontology",
+  "canonical_family_uri": "https://firebim.org/ontologies/fbo#",
+  "canonical_country_uri": "https://firebim.org/ontologies/fbo/be#",
+  "version": {
+    "version": "2026.09.04",
+    "status": "draft",
+    "issued_at": "2026-09-04",
+    "published_at": "2026-09-04T13:15:05.065Z",
+    "resource_filename": "fbo-be.ttl",
+    "url": "https://firebim.org/documentation/ontologies/fbo/be/versions/2026.09.04/metadata.json",
+    "ttl_url": "https://firebim.org/documentation/ontologies/fbo/be/versions/2026.09.04/fbo-be.ttl",
+    "terms_url": "https://firebim.org/documentation/ontologies/fbo/be/versions/2026.09.04/terms.json",
+    "mapping_url": null,
+    "graph_uri": "https://api.firebim.org/ontologies/fbo/be/versions/2026.09.04",
+    "ontology_uri": "https://firebim.org/ontologies/fbo/be#",
+    "version_iri": "https://firebim.org/ontologies/fbo/be/2026.09.04#",
+    "label": "FBO-BE – Belgium",
+    "description": "FBO Belgium release 2026.09.04 (issued 2026-09-04). Belgian fire-safety vocabulary with legal definitions, regulation references and links to the core FBO concepts and to IFC.",
+    "imports": [
+      "https://firebim.org/ontologies/fbo#"
+    ],
+    "triple_count": 977,
+    "class_count": 21,
+    "property_count": 42,
+    "individual_count": 9,
+    "subclass_count": 7,
+    "byte_size": 60557,
+    "sha256": "346d6ed4568585ef9db4d27d845f3a86c3074c6217a541aca3c0e29ae56e914d",
+    "is_latest": true,
+    "is_stable": false,
+    "is_default": true
+  }
+}

@@ -12,6 +12,7 @@ export default function Header() {
     { href: "/#partners", label: "Partners" },
     { href: "/reference_platform", label: "Platform" },
     { href: "/documentation", label: "Docs" },
+    { href: "/modeling-guideline", label: "Guideline" },
     { href: "/downloads", label: "Downloads" },
     { href: "/deliverables", label: "Deliverables" },
     { href: "/#faq", label: "FAQ" },

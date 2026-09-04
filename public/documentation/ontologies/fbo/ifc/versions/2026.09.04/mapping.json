@@ -1,0 +1,3631 @@
+{
+  "ontology_family": "fbo",
+  "country": "ifc",
+  "version": "2026.09.04",
+  "status": "draft",
+  "issued_at": "2026-09-04",
+  "ttl_url": "https://firebim.org/documentation/ontologies/fbo/ifc/versions/2026.09.04/fbo-ifc.ttl",
+  "property_definitions": [
+    {
+      "id": "fbo-ifc:hasArgumentation",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#hasArgumentation",
+      "label": "has argumentation",
+      "category": "datatypeProperty",
+      "comment": null
+    },
+    {
+      "id": "fbo-ifc:hasClassPredefinedType",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#hasClassPredefinedType",
+      "label": "has IFC class and predefined type",
+      "category": "datatypeProperty",
+      "comment": null
+    },
+    {
+      "id": "fbo-ifc:hasDataType",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#hasDataType",
+      "label": "has data type",
+      "category": "datatypeProperty",
+      "comment": null
+    },
+    {
+      "id": "fbo-ifc:hasInterpretationResult",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#hasInterpretationResult",
+      "label": "has interpretation result",
+      "category": "datatypeProperty",
+      "comment": null
+    },
+    {
+      "id": "fbo-ifc:hasKind",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#hasKind",
+      "label": "has kind",
+      "category": "datatypeProperty",
+      "comment": null
+    },
+    {
+      "id": "fbo-ifc:hasPsetProperty",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#hasPsetProperty",
+      "label": "has IFC property set and property",
+      "category": "datatypeProperty",
+      "comment": null
+    },
+    {
+      "id": "fbo-ifc:hasValue",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#hasValue",
+      "label": "has value",
+      "category": "datatypeProperty",
+      "comment": null
+    },
+    {
+      "id": "fbo-ifc:isBuildingSMART",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#isBuildingSMART",
+      "label": "is buildingSMART approved",
+      "category": "datatypeProperty",
+      "comment": null
+    },
+    {
+      "id": "fbo-ifc:mapsToTerm",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#mapsToTerm",
+      "label": "maps to FBO term",
+      "category": "objectProperty",
+      "comment": null
+    }
+  ],
+  "counts": {
+    "rows": 76,
+    "buildingsmart_rows": 32,
+    "ifc_entities": 27,
+    "mapped_terms": 152
+  },
+  "rows": [
+    {
+      "id": "ActiveFireProtection",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#ActiveFireProtection",
+      "label": "ActiveFireProtection",
+      "kind": "Property",
+      "ifc_classes": [
+        "IfcSpatialElement"
+      ],
+      "ifc_entities": [
+        "IfcSpatialElement"
+      ],
+      "pset_properties": [
+        "Pset_SpaceFireSafetyRequirements.SprinklerProtection",
+        "Pset_SpaceFireSafetyRequirements.SprinklerProtectionAutomatic"
+      ],
+      "data_type": "Boolean",
+      "value": null,
+      "is_buildingsmart": true,
+      "argumentation": "Property common between spatial elements: IfcSpace, IfcSpatialZone",
+      "interpretation": null,
+      "terms": [
+        {
+          "iri": "https://firebim.org/ontologies/fbo#ActiveFireProtection",
+          "prefixed": "fbo:ActiveFireProtection",
+          "label": "Active Fire Protection",
+          "definition": "method(s) used to reduce or prevent the spread and effects of fire (3.138), heat or smoke (3.389) by virtue of detection and/or suppression of the fire and which require a certain amount of motion and/or response to be activated\nEXAMPLE:The application of agents (e.g. halon gas or water spray) to the fire or the control of ventilation and/or smoke.\nNote 1 to entry: Compare with the terms passive fire protection (3.328) and suppression system (3.418).",
+          "ontology": "fbo/core",
+          "ontology_title": "FBO Core",
+          "href": "/documentation/ontologies/fbo/core/#ActiveFireProtection"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/dk#ActiveFireProtection",
+          "prefixed": "fbo-dk:ActiveFireProtection",
+          "label": "Active fire protection",
+          "definition": "Aktiv brandsikring omfatter alle tekniske installationer og systemer, der bruges til at registrere, advare om, og bekæmpe brand i en bygning. Det er udstyr, der reagerer aktivt ved brand",
+          "ontology": "fbo/dk",
+          "ontology_title": "FBO Denmark",
+          "href": "/documentation/ontologies/fbo/dk/#ActiveFireProtection"
+        }
+      ],
+      "countries": [
+        "core",
+        "dk"
+      ]
+    },
+    {
+      "id": "AdjoiningTerrain",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#AdjoiningTerrain",
+      "label": "AdjoiningTerrain",
+      "kind": "Object",
+      "ifc_classes": [
+        "IfcSite"
+      ],
+      "ifc_entities": [
+        "IfcSite"
+      ],
+      "pset_properties": [],
+      "data_type": null,
+      "value": null,
+      "is_buildingsmart": false,
+      "argumentation": "Unsure how to further distinguish",
+      "interpretation": null,
+      "terms": [
+        {
+          "iri": "https://firebim.org/ontologies/fbo/nl#AdjoiningTerrain",
+          "prefixed": "fbo-nl:AdjoiningTerrain",
+          "label": "adjoining terrain",
+          "definition": "empty terrain adjoining the plot or area available to the public",
+          "ontology": "fbo/nl",
+          "ontology_title": "FBO Netherlands",
+          "href": "/documentation/ontologies/fbo/nl/#AdjoiningTerrain"
+        }
+      ],
+      "countries": [
+        "nl"
+      ]
+    },
+    {
+      "id": "AreaConditionalFireCompartment",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#AreaConditionalFireCompartment",
+      "label": "AreaConditionalFireCompartment",
+      "kind": "Quantity",
+      "ifc_classes": [
+        "IfcSpace",
+        "IfcSpatialZone.FIRESAFETY",
+        "IfcZone"
+      ],
+      "ifc_entities": [
+        "IfcSpace",
+        "IfcSpatialZone",
+        "IfcZone"
+      ],
+      "pset_properties": [
+        "CPset_FireBIM.CompartmentAreaConditional"
+      ],
+      "data_type": "Area",
+      "value": null,
+      "is_buildingsmart": false,
+      "argumentation": null,
+      "interpretation": "Is that different from AreaFireCompartment?",
+      "terms": [
+        {
+          "iri": "https://firebim.org/ontologies/fbo/lt#FsAreaConditionalFireCompartment",
+          "prefixed": "fbo-lt:FsAreaConditionalFireCompartment",
+          "label": "Conditional Fire Compartment Area",
+          "definition": "Conditional area of the fire department, depending on the purpose of the building [m2]. The numerical value is specified in Table 1 of Annex 3 to the Basic Fire Safety Requirements.",
+          "ontology": "fbo/lt",
+          "ontology_title": "FBO Lithuania",
+          "href": "/documentation/ontologies/fbo/lt/#FsAreaConditionalFireCompartment"
+        }
+      ],
+      "countries": [
+        "lt"
+      ]
+    },
+    {
+      "id": "AreaDuplex1",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#AreaDuplex1",
+      "label": "AreaDuplex (1)",
+      "kind": "Quantity",
+      "ifc_classes": [
+        "IfcSpatialZone.FIRESAFETY"
+      ],
+      "ifc_entities": [
+        "IfcSpatialZone"
+      ],
+      "pset_properties": [
+        "Qto_SpatialZoneOtherBaseQuantities.NetFloorArea",
+        "CPset_FireBIM.CompartmentArea"
+      ],
+      "data_type": "Area",
+      "value": null,
+      "is_buildingsmart": false,
+      "argumentation": null,
+      "interpretation": "Same mappings as AreaFireCompartment",
+      "terms": [
+        {
+          "iri": "https://firebim.org/ontologies/fbo/be#AreaDuplex",
+          "prefixed": "fbo-be:AreaDuplex",
+          "label": "Area of duplex compartment",
+          "definition": "the cumulative gross area of the building layers that form the duplex, measured between the inner surfaces of the compartment boundaries",
+          "ontology": "fbo/be",
+          "ontology_title": "FBO Belgium",
+          "href": "/documentation/ontologies/fbo/be/#AreaDuplex"
+        }
+      ],
+      "countries": [
+        "be"
+      ]
+    },
+    {
+      "id": "AreaDuplex2",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#AreaDuplex2",
+      "label": "AreaDuplex (2)",
+      "kind": "Quantity",
+      "ifc_classes": [
+        "IfcSpace"
+      ],
+      "ifc_entities": [
+        "IfcSpace"
+      ],
+      "pset_properties": [
+        "Qto_SpaceBaseQuantities.NetFloorArea"
+      ],
+      "data_type": "Area",
+      "value": null,
+      "is_buildingsmart": true,
+      "argumentation": "Can look at the relationship “IfcRelReferencedInSpatialStructure” which can relate a space to multiple stories. Alternatively, there may be a logic to “merge” spaces based on a property (such as a name or other) with identical values",
+      "interpretation": "Same mappings as AreaFireCompartment",
+      "terms": [
+        {
+          "iri": "https://firebim.org/ontologies/fbo/be#AreaDuplex",
+          "prefixed": "fbo-be:AreaDuplex",
+          "label": "Area of duplex compartment",
+          "definition": "the cumulative gross area of the building layers that form the duplex, measured between the inner surfaces of the compartment boundaries",
+          "ontology": "fbo/be",
+          "ontology_title": "FBO Belgium",
+          "href": "/documentation/ontologies/fbo/be/#AreaDuplex"
+        }
+      ],
+      "countries": [
+        "be"
+      ]
+    },
+    {
+      "id": "AreaFireCompartment1",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#AreaFireCompartment1",
+      "label": "AreaFireCompartment (1)",
+      "kind": "Quantity",
+      "ifc_classes": [
+        "IfcSpatialZone.FIRESAFETY"
+      ],
+      "ifc_entities": [
+        "IfcSpatialZone"
+      ],
+      "pset_properties": [
+        "Qto_SpatialZoneOtherBaseQuantities.NetFloorArea",
+        "CPset_FireBIM.CompartmentArea"
+      ],
+      "data_type": "Area",
+      "value": null,
+      "is_buildingsmart": false,
+      "argumentation": null,
+      "interpretation": null,
+      "terms": [
+        {
+          "iri": "https://firebim.org/ontologies/fbo#AreaFireCompartment",
+          "prefixed": "fbo:AreaFireCompartment",
+          "label": "Area of Fire Compartment",
+          "definition": null,
+          "ontology": "fbo/core",
+          "ontology_title": "FBO Core",
+          "href": "/documentation/ontologies/fbo/core/#AreaFireCompartment"
+        }
+      ],
+      "countries": [
+        "core"
+      ]
+    },
+    {
+      "id": "AreaFireCompartment2a",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#AreaFireCompartment2a",
+      "label": "AreaFireCompartment (2a)",
+      "kind": "Quantity",
+      "ifc_classes": [
+        "IfcSpace"
+      ],
+      "ifc_entities": [
+        "IfcSpace"
+      ],
+      "pset_properties": [
+        "Qto_SpaceBaseQuantities.NetFloorArea"
+      ],
+      "data_type": "Area",
+      "value": null,
+      "is_buildingsmart": true,
+      "argumentation": null,
+      "interpretation": "If not given by a quantity, it could be extracted from geometry (FootPrint or Body)",
+      "terms": [
+        {
+          "iri": "https://firebim.org/ontologies/fbo/be#AreaFireCompartment",
+          "prefixed": "fbo-be:AreaFireCompartment",
+          "label": "Compartment Area",
+          "definition": "Horizontal gross-area measured without any deduction between the inner surfaces of the compartment boundaries",
+          "ontology": "fbo/be",
+          "ontology_title": "FBO Belgium",
+          "href": "/documentation/ontologies/fbo/be/#AreaFireCompartment"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo#AreaFireCompartment",
+          "prefixed": "fbo:AreaFireCompartment",
+          "label": "Area of Fire Compartment",
+          "definition": null,
+          "ontology": "fbo/core",
+          "ontology_title": "FBO Core",
+          "href": "/documentation/ontologies/fbo/core/#AreaFireCompartment"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/dk#AreaFireCompartment",
+          "prefixed": "fbo-dk:AreaFireCompartment",
+          "label": "Compartment-Area - Floor area",
+          "definition": "Summen af bruttoarealerne for samtlige etager, herunder kældre og udnyttelige tagetager samt altanlukninger, udestuer, forbindelsesgange og lignende. I forbindelse med brandforhold må der ikke foretages fradrag, jf. BR18 § 455, stk. 3 nr. 1, 4 og 5 samt stk. 4, som alene må benyttes ved beregning af bebyggelsesprocent.",
+          "ontology": "fbo/dk",
+          "ontology_title": "FBO Denmark",
+          "href": "/documentation/ontologies/fbo/dk/#AreaFireCompartment"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/lt#AreaFireCompartment",
+          "prefixed": "fbo-lt:AreaFireCompartment",
+          "label": "Fire compartment area",
+          "definition": "the area of the largest floor of the building. If the building has interconnected spaces between floors (atriums, openings, type 2 staircases, etc.), the areas of all interconnected floors shall be added together when determining the area of the fire compartment. When the maximum area of a fire compartment is exceeded, two or more separate fire compartments shall be formed, separated by fire compartment walls and/or floors. If there are rooms of different purposes or rooms that are dangerous in terms of explosion and fire in a fire compartment, the area of the fire compartment shall be determined according to the purpose of the rooms occupying more than 50% of the total area of the rooms. If there are rooms of different purposes in a fire compartment, not exceeding 50% of the total area of the rooms, the maximum area of the fire compartment Fg shall be determined according to the indicators of the purpose that occupies the largest part of the fire compartment.",
+          "ontology": "fbo/lt",
+          "ontology_title": "FBO Lithuania",
+          "href": "/documentation/ontologies/fbo/lt/#AreaFireCompartment"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/nl#AreaFireCompartment",
+          "prefixed": "fbo-nl:AreaFireCompartment",
+          "label": "Fire compartment",
+          "definition": "Part of one or more buildings designated as a maximum fire expansion area",
+          "ontology": "fbo/nl",
+          "ontology_title": "FBO Netherlands",
+          "href": "/documentation/ontologies/fbo/nl/#AreaFireCompartment"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/nl#AreaFireSubCompartment",
+          "prefixed": "fbo-nl:AreaFireSubCompartment",
+          "label": "fire-sub-compartment_area",
+          "definition": "part of a fire compartment intended to restrict the spread of smoke and further restrict the spread of fire",
+          "ontology": "fbo/nl",
+          "ontology_title": "FBO Netherlands",
+          "href": "/documentation/ontologies/fbo/nl/#AreaFireSubCompartment"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/pt#AreaFireCompartment",
+          "prefixed": "fbo-pt:AreaFireCompartment",
+          "label": "Area of a fire compartment",
+          "definition": null,
+          "ontology": "fbo/pt",
+          "ontology_title": "FBO Portugal",
+          "href": "/documentation/ontologies/fbo/pt/#AreaFireCompartment"
+        }
+      ],
+      "countries": [
+        "be",
+        "core",
+        "dk",
+        "lt",
+        "nl",
+        "pt"
+      ]
+    },
+    {
+      "id": "AreaRefugeSpace",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#AreaRefugeSpace",
+      "label": "AreaRefugeSpace",
+      "kind": "Quantity",
+      "ifc_classes": [
+        "IfcSpace",
+        "IfcSpatialZone.FIRESAFETY",
+        "IfcZone"
+      ],
+      "ifc_entities": [
+        "IfcSpace",
+        "IfcSpatialZone",
+        "IfcZone"
+      ],
+      "pset_properties": [
+        "Qto_SpaceBaseQuantities.NetFloorArea",
+        "CPset_FireBIM.CompartmentArea"
+      ],
+      "data_type": "Area",
+      "value": null,
+      "is_buildingsmart": false,
+      "argumentation": null,
+      "interpretation": null,
+      "terms": [
+        {
+          "iri": "https://firebim.org/ontologies/fbo/pt#AreaRefugeSpace",
+          "prefixed": "fbo-pt:AreaRefugeSpace",
+          "label": "Area of refuge space",
+          "definition": "A refuge area must have a value, in m2, of no less than the effective area of the sites it serves, multiplied by the index 0.2.",
+          "ontology": "fbo/pt",
+          "ontology_title": "FBO Portugal",
+          "href": "/documentation/ontologies/fbo/pt/#AreaRefugeSpace"
+        }
+      ],
+      "countries": [
+        "pt"
+      ]
+    },
+    {
+      "id": "AreaTriplex1",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#AreaTriplex1",
+      "label": "AreaTriplex (1)",
+      "kind": "Quantity",
+      "ifc_classes": [
+        "IfcSpatialZone.FIRESAFETY"
+      ],
+      "ifc_entities": [
+        "IfcSpatialZone"
+      ],
+      "pset_properties": [
+        "Qto_SpatialZoneOtherBaseQuantities.NetFloorArea",
+        "CPset_FireBIM.CompartmentArea"
+      ],
+      "data_type": "Area",
+      "value": null,
+      "is_buildingsmart": false,
+      "argumentation": null,
+      "interpretation": "Same mappings as AreaFireCompartment",
+      "terms": [
+        {
+          "iri": "https://firebim.org/ontologies/fbo/be#AreaTriplex",
+          "prefixed": "fbo-be:AreaTriplex",
+          "label": "Area of triplex compartment",
+          "definition": "the cumulative gross area of the building layers that form the triplex, measured between the inner surfaces of the compartment boundaries",
+          "ontology": "fbo/be",
+          "ontology_title": "FBO Belgium",
+          "href": "/documentation/ontologies/fbo/be/#AreaTriplex"
+        }
+      ],
+      "countries": [
+        "be"
+      ]
+    },
+    {
+      "id": "AreaTriplex2",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#AreaTriplex2",
+      "label": "AreaTriplex (2)",
+      "kind": "Quantity",
+      "ifc_classes": [
+        "IfcSpace"
+      ],
+      "ifc_entities": [
+        "IfcSpace"
+      ],
+      "pset_properties": [
+        "Qto_SpaceBaseQuantities.NetFloorArea"
+      ],
+      "data_type": "Area",
+      "value": null,
+      "is_buildingsmart": true,
+      "argumentation": null,
+      "interpretation": "Same mappings as AreaFireCompartment",
+      "terms": [
+        {
+          "iri": "https://firebim.org/ontologies/fbo/be#AreaTriplex",
+          "prefixed": "fbo-be:AreaTriplex",
+          "label": "Area of triplex compartment",
+          "definition": "the cumulative gross area of the building layers that form the triplex, measured between the inner surfaces of the compartment boundaries",
+          "ontology": "fbo/be",
+          "ontology_title": "FBO Belgium",
+          "href": "/documentation/ontologies/fbo/be/#AreaTriplex"
+        }
+      ],
+      "countries": [
+        "be"
+      ]
+    },
+    {
+      "id": "AutomaticDetection",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#AutomaticDetection",
+      "label": "AutomaticDetection",
+      "kind": "Property",
+      "ifc_classes": [
+        "IfcSpace",
+        "IfcSpatialZone.FIRESAFETY",
+        "IfcZone"
+      ],
+      "ifc_entities": [
+        "IfcSpace",
+        "IfcSpatialZone",
+        "IfcZone"
+      ],
+      "pset_properties": [
+        "CPset_FireBIM.AutomaticDetection"
+      ],
+      "data_type": "Boolean",
+      "value": null,
+      "is_buildingsmart": false,
+      "argumentation": null,
+      "interpretation": "Are these concepts equivalent across countries?",
+      "terms": [
+        {
+          "iri": "https://firebim.org/ontologies/fbo/be#AutomaticDetectionTotal",
+          "prefixed": "fbo-be:AutomaticDetectionTotal",
+          "label": "Automatic detection of type total",
+          "definition": null,
+          "ontology": "fbo/be",
+          "ontology_title": "FBO Belgium",
+          "href": "/documentation/ontologies/fbo/be/#AutomaticDetectionTotal"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo#AutomaticFireAlarmsystem",
+          "prefixed": "fbo:AutomaticFireAlarmsystem",
+          "label": "Automatic Fire Alarm system",
+          "definition": null,
+          "ontology": "fbo/core",
+          "ontology_title": "FBO Core",
+          "href": "/documentation/ontologies/fbo/core/#AutomaticFireAlarmsystem"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo#AutomaticWarningSystem",
+          "prefixed": "fbo:AutomaticWarningSystem",
+          "label": "Automatic warning system",
+          "definition": null,
+          "ontology": "fbo/core",
+          "ontology_title": "FBO Core",
+          "href": "/documentation/ontologies/fbo/core/#AutomaticWarningSystem"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/dk#AutomaticFireAlarmsystem",
+          "prefixed": "fbo-dk:AutomaticFireAlarmsystem",
+          "label": "Automatic Fire Alarm system",
+          "definition": "Anlæg, der indeholder ABA-central og detektorer, som ved detektering af røg-, varme- eller flammeudvikling automatisk tilkalder redningsberedskabet, samt eventuelt alarmtryk, der ved manuel aktivering tilkalder redningsberedskabet. Brandtekniske installationer kan kobles til et ABAanlæg, og ABA-anlægget vil derved være det styrende anlæg for de tilkoblede anlæg.",
+          "ontology": "fbo/dk",
+          "ontology_title": "FBO Denmark",
+          "href": "/documentation/ontologies/fbo/dk/#AutomaticFireAlarmsystem"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/dk#AutomaticWarningsystem",
+          "prefixed": "fbo-dk:AutomaticWarningsystem",
+          "label": "Automatic warning system",
+          "definition": "Anlæg, der via en tone eller en talt besked varsler personer om en utilsigtet hændelse, herunder brand. Varslingsanlæg kan aktiveres manuelt (internt varslingsanlæg) eller automatisk via et ABA-anlæg (automatisk varslingsanlæg).",
+          "ontology": "fbo/dk",
+          "ontology_title": "FBO Denmark",
+          "href": "/documentation/ontologies/fbo/dk/#AutomaticWarningsystem"
+        }
+      ],
+      "countries": [
+        "be",
+        "core",
+        "dk"
+      ]
+    },
+    {
+      "id": "AutomaticFireExtinguishSystem",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#AutomaticFireExtinguishSystem",
+      "label": "AutomaticFireExtinguishSystem",
+      "kind": "Property",
+      "ifc_classes": [
+        "IfcSpace",
+        "IfcSpatialZone.FIRESAFETY",
+        "IfcZone"
+      ],
+      "ifc_entities": [
+        "IfcSpace",
+        "IfcSpatialZone",
+        "IfcZone"
+      ],
+      "pset_properties": [
+        "CPset_FireBIM.AutomaticFireExtinguishSystem"
+      ],
+      "data_type": "Boolean",
+      "value": null,
+      "is_buildingsmart": false,
+      "argumentation": null,
+      "interpretation": "Is this targeting sprinklers or is this more generic and would others also apply?",
+      "terms": [
+        {
+          "iri": "https://firebim.org/ontologies/fbo/be#AutomaticFireExtinguishSystem",
+          "prefixed": "fbo-be:AutomaticFireExtinguishSystem",
+          "label": "Automatic fire extinguishing system",
+          "definition": null,
+          "ontology": "fbo/be",
+          "ontology_title": "FBO Belgium",
+          "href": "/documentation/ontologies/fbo/be/#AutomaticFireExtinguishSystem"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo#AutomaticFireExtinguishSystem",
+          "prefixed": "fbo:AutomaticFireExtinguishSystem",
+          "label": "Automatic Fire Extinguish System",
+          "definition": null,
+          "ontology": "fbo/core",
+          "ontology_title": "FBO Core",
+          "href": "/documentation/ontologies/fbo/core/#AutomaticFireExtinguishSystem"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/dk#AutomaticFireSprinklersystem",
+          "prefixed": "fbo-dk:AutomaticFireSprinklersystem",
+          "label": "Automatic sprinkler system",
+          "definition": "Anlæg, der kontrollerer, dæmper eller slukker en brand ved brug af vand som slukningsmiddel. Et sprinkleranlæg består af vandforsyning, alarmventiler og rørsystem med sprinklere. Sprinklere er armaturer, der ved hjælp af spredeplader fordeler den dimensionerede vandtilstrømning på en forudbestemt måde over et bestemt areal. Sprinklere aktiveres oftest ved, at en væskefyldt glasbulb eller smelteled, som er placeret så den blokerer for vandtilstrømningen, opvarmes af branden og brydes ved en given temperatur. Sprinklere kan også være uden glasbulb eller smelteled, og vil da blive aktiveret ved ABA-detektering af røg eller flammer.",
+          "ontology": "fbo/dk",
+          "ontology_title": "FBO Denmark",
+          "href": "/documentation/ontologies/fbo/dk/#AutomaticFireSprinklersystem"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/lt#AutomaticFireExtinguish",
+          "prefixed": "fbo-lt:AutomaticFireExtinguish",
+          "label": "Sprinkler systems (automatic)",
+          "definition": "A piping system of the required diameter installed in the building, with sprinkler heads installed at specific intervals. The piping is connected to control valves with alarm devices and a mechanical water supply system.",
+          "ontology": "fbo/lt",
+          "ontology_title": "FBO Lithuania",
+          "href": "/documentation/ontologies/fbo/lt/#AutomaticFireExtinguish"
+        }
+      ],
+      "countries": [
+        "be",
+        "core",
+        "dk",
+        "lt"
+      ]
+    },
+    {
+      "id": "Building",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#Building",
+      "label": "Building",
+      "kind": "Object",
+      "ifc_classes": [
+        "IfcBuilding"
+      ],
+      "ifc_entities": [
+        "IfcBuilding"
+      ],
+      "pset_properties": [],
+      "data_type": null,
+      "value": null,
+      "is_buildingsmart": true,
+      "argumentation": null,
+      "interpretation": "One or more buildings can exist in each IFC file (although typically not supported by modelling software)",
+      "terms": [
+        {
+          "iri": "https://firebim.org/ontologies/fbo/be#Building",
+          "prefixed": "fbo-be:Building",
+          "label": "Building",
+          "definition": "any building structure that forms a covered space accessible to people, wholly or partially enclosed by walls; industrial installations (chemical installations, tank farms) and structures (bridges, tunnels,..) are not considered buildings",
+          "ontology": "fbo/be",
+          "ontology_title": "FBO Belgium",
+          "href": "/documentation/ontologies/fbo/be/#Building"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo#Building",
+          "prefixed": "fbo:Building",
+          "label": "Building",
+          "definition": null,
+          "ontology": "fbo/core",
+          "ontology_title": "FBO Core",
+          "href": "/documentation/ontologies/fbo/core/#Building"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/nl#Structure",
+          "prefixed": "fbo-nl:Structure",
+          "label": "Structure",
+          "definition": "Building that forms a covered space accessible to people, completely or partially enclosed by walls",
+          "ontology": "fbo/nl",
+          "ontology_title": "FBO Netherlands",
+          "href": "/documentation/ontologies/fbo/nl/#Structure"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/pt#Building",
+          "prefixed": "fbo-pt:Building",
+          "label": "Building",
+          "definition": null,
+          "ontology": "fbo/pt",
+          "ontology_title": "FBO Portugal",
+          "href": "/documentation/ontologies/fbo/pt/#Building"
+        }
+      ],
+      "countries": [
+        "be",
+        "core",
+        "nl",
+        "pt"
+      ]
+    },
+    {
+      "id": "BuildingLayersBuilding",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#BuildingLayersBuilding",
+      "label": "BuildingLayers (Building)",
+      "kind": "Quantity",
+      "ifc_classes": [
+        "IfcBuilding"
+      ],
+      "ifc_entities": [
+        "IfcBuilding"
+      ],
+      "pset_properties": [
+        "Pset_BuildingCommon.NumberOfStoreys"
+      ],
+      "data_type": "Integer",
+      "value": null,
+      "is_buildingsmart": true,
+      "argumentation": "Different from number of layers in a compartment",
+      "interpretation": "Number of building layers or storeys in the building",
+      "terms": [
+        {
+          "iri": "https://firebim.org/ontologies/fbo/be#NumberBuildingLayersBuilding",
+          "prefixed": "fbo-be:NumberBuildingLayersBuilding",
+          "label": "Building-number of building layers",
+          "definition": null,
+          "ontology": "fbo/be",
+          "ontology_title": "FBO Belgium",
+          "href": "/documentation/ontologies/fbo/be/#NumberBuildingLayersBuilding"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo#BuildingLayers",
+          "prefixed": "fbo:BuildingLayers",
+          "label": "Building-number of building layers",
+          "definition": null,
+          "ontology": "fbo/core",
+          "ontology_title": "FBO Core",
+          "href": "/documentation/ontologies/fbo/core/#BuildingLayers"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/dk#BuildingLayers",
+          "prefixed": "fbo-dk:BuildingLayers",
+          "label": "Building-number of building layers",
+          "definition": "Antallet af udnyttelige etager",
+          "ontology": "fbo/dk",
+          "ontology_title": "FBO Denmark",
+          "href": "/documentation/ontologies/fbo/dk/#BuildingLayers"
+        }
+      ],
+      "countries": [
+        "be",
+        "core",
+        "dk"
+      ]
+    },
+    {
+      "id": "BuildingLayersCompartment",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#BuildingLayersCompartment",
+      "label": "BuildingLayers (Compartment)",
+      "kind": "Quantity",
+      "ifc_classes": [
+        "IfcSpatialZone.FIRESAFETY"
+      ],
+      "ifc_entities": [
+        "IfcSpatialZone"
+      ],
+      "pset_properties": [
+        "CPset_FireBIM.BuildingLayers",
+        "CPset_FireBIM.NumberOfBuildingLayers"
+      ],
+      "data_type": "Integer",
+      "value": null,
+      "is_buildingsmart": false,
+      "argumentation": "Different from number of layers in a building",
+      "interpretation": "Number of building layers in a compartment",
+      "terms": [],
+      "countries": []
+    },
+    {
+      "id": "BuildingStorey",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#BuildingStorey",
+      "label": "BuildingStorey",
+      "kind": "Object",
+      "ifc_classes": [
+        "IfcBuildingStorey"
+      ],
+      "ifc_entities": [
+        "IfcBuildingStorey"
+      ],
+      "pset_properties": [],
+      "data_type": null,
+      "value": null,
+      "is_buildingsmart": true,
+      "argumentation": null,
+      "interpretation": null,
+      "terms": [
+        {
+          "iri": "https://firebim.org/ontologies/fbo/be#BuildingLayer",
+          "prefixed": "fbo-be:BuildingLayer",
+          "label": "Building layer",
+          "definition": "this refers to the space between the floor and the ceiling above. The floors below level EI are the basement floors and are not eligible for determining the number of floors in a building",
+          "ontology": "fbo/be",
+          "ontology_title": "FBO Belgium",
+          "href": "/documentation/ontologies/fbo/be/#BuildingLayer"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo#BuildingStorey",
+          "prefixed": "fbo:BuildingStorey",
+          "label": "Building storey",
+          "definition": null,
+          "ontology": "fbo/core",
+          "ontology_title": "FBO Core",
+          "href": "/documentation/ontologies/fbo/core/#BuildingStorey"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/lt#BuildingStorey",
+          "prefixed": "fbo-lt:BuildingStorey",
+          "label": "Building storey",
+          "definition": "The space in a building from the floor surface of the premises to the floor surface of the premises above (upper floor – to the top of the attic floor insulation or the top of the roof covering).",
+          "ontology": "fbo/lt",
+          "ontology_title": "FBO Lithuania",
+          "href": "/documentation/ontologies/fbo/lt/#BuildingStorey"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/nl#BuildingStorey",
+          "prefixed": "fbo-nl:BuildingStorey",
+          "label": "building layer",
+          "definition": "part of a building consisting of one or more rooms, where the tops of the finished floors or of the ground level of two adjacent rooms do not differ in height by more than 1.5 m",
+          "ontology": "fbo/nl",
+          "ontology_title": "FBO Netherlands",
+          "href": "/documentation/ontologies/fbo/nl/#BuildingStorey"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/pt#BuildingStorey",
+          "prefixed": "fbo-pt:BuildingStorey",
+          "label": "BuildingStorey",
+          "definition": null,
+          "ontology": "fbo/pt",
+          "ontology_title": "FBO Portugal",
+          "href": "/documentation/ontologies/fbo/pt/#BuildingStorey"
+        }
+      ],
+      "countries": [
+        "be",
+        "core",
+        "lt",
+        "nl",
+        "pt"
+      ]
+    },
+    {
+      "id": "BuildingStoreyFloorArea",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#BuildingStoreyFloorArea",
+      "label": "BuildingStoreyFloorArea",
+      "kind": "Quantity",
+      "ifc_classes": [
+        "IfcBuildingStorey"
+      ],
+      "ifc_entities": [
+        "IfcBuildingStorey"
+      ],
+      "pset_properties": [
+        "Qto_BuildingStoreyBaseQuantities.NetFloorArea"
+      ],
+      "data_type": "Area",
+      "value": null,
+      "is_buildingsmart": true,
+      "argumentation": null,
+      "interpretation": "Is NetFloorArea representative or not?",
+      "terms": [
+        {
+          "iri": "https://firebim.org/ontologies/fbo/lt#BuildingStoreyFloorArea",
+          "prefixed": "fbo-lt:BuildingStoreyFloorArea",
+          "label": "Floor area of the storey of the building",
+          "definition": "Total floor area contain within a storey, excluding the horizontal area of external walls",
+          "ontology": "fbo/lt",
+          "ontology_title": "FBO Lithuania",
+          "href": "/documentation/ontologies/fbo/lt/#BuildingStoreyFloorArea"
+        }
+      ],
+      "countries": [
+        "lt"
+      ]
+    },
+    {
+      "id": "BuildingUsers",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#BuildingUsers",
+      "label": "BuildingUsers",
+      "kind": "Property",
+      "ifc_classes": [
+        "IfcBuilding"
+      ],
+      "ifc_entities": [
+        "IfcBuilding"
+      ],
+      "pset_properties": [
+        "???"
+      ],
+      "data_type": null,
+      "value": null,
+      "is_buildingsmart": false,
+      "argumentation": null,
+      "interpretation": null,
+      "terms": [
+        {
+          "iri": "https://firebim.org/ontologies/fbo/pt#BuildingUsers",
+          "prefixed": "fbo-pt:BuildingUsers",
+          "label": "Building Users",
+          "definition": null,
+          "ontology": "fbo/pt",
+          "ontology_title": "FBO Portugal",
+          "href": "/documentation/ontologies/fbo/pt/#BuildingUsers"
+        }
+      ],
+      "countries": [
+        "pt"
+      ]
+    },
+    {
+      "id": "CalculatedAltitude",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#CalculatedAltitude",
+      "label": "CalculatedAltitude",
+      "kind": "Quantity",
+      "ifc_classes": [
+        "IfcBuilding"
+      ],
+      "ifc_entities": [
+        "IfcBuilding"
+      ],
+      "pset_properties": [
+        "CPset_FireBIM.CalculatedAltitude"
+      ],
+      "data_type": "Length",
+      "value": null,
+      "is_buildingsmart": false,
+      "argumentation": "Needed to compare with Building Height",
+      "interpretation": "Calculated according to documented measurement method",
+      "terms": [
+        {
+          "iri": "https://firebim.org/ontologies/fbo/lt#HabsCalculatedAltitude",
+          "prefixed": "fbo-lt:HabsCalculatedAltitude",
+          "label": "Calculated altitude",
+          "definition": "The calculated altitude depends on the purpose of the building [m]. The numerical value is specified in Table 1 of Annex 3 to the Basic Fire Safety Requirements.",
+          "ontology": "fbo/lt",
+          "ontology_title": "FBO Lithuania",
+          "href": "/documentation/ontologies/fbo/lt/#HabsCalculatedAltitude"
+        }
+      ],
+      "countries": [
+        "lt"
+      ]
+    },
+    {
+      "id": "Ceiling",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#Ceiling",
+      "label": "Ceiling",
+      "kind": "Object",
+      "ifc_classes": [
+        "IfcCovering.CEILING"
+      ],
+      "ifc_entities": [
+        "IfcCovering"
+      ],
+      "pset_properties": [],
+      "data_type": null,
+      "value": null,
+      "is_buildingsmart": true,
+      "argumentation": null,
+      "interpretation": null,
+      "terms": [
+        {
+          "iri": "https://firebim.org/ontologies/fbo/be#Ceiling",
+          "prefixed": "fbo-be:Ceiling",
+          "label": "Ceiling",
+          "definition": "building element covering the subsurface of the floor or roof and its supporting structure, consisting of suspensions, fixings and any insulation material. The ceiling can be attached directly to the building’s structural elements or be a suspended ceiling",
+          "ontology": "fbo/be",
+          "ontology_title": "FBO Belgium",
+          "href": "/documentation/ontologies/fbo/be/#Ceiling"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/be#SuspendedCeiling",
+          "prefixed": "fbo-be:SuspendedCeiling",
+          "label": "Suspended ceiling",
+          "definition": "Suspended or self-supporting celing",
+          "ontology": "fbo/be",
+          "ontology_title": "FBO Belgium",
+          "href": "/documentation/ontologies/fbo/be/#SuspendedCeiling"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/dk#CeilingSuspended",
+          "prefixed": "fbo-dk:CeilingSuspended",
+          "label": "Suspended ceiling",
+          "definition": "Loft placeret under loftsbeklædningen som ikke nødvendigvis opfylder kravene til den indvendige loftsbeklædning.",
+          "ontology": "fbo/dk",
+          "ontology_title": "FBO Denmark",
+          "href": "/documentation/ontologies/fbo/dk/#CeilingSuspended"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/lt#SuspendedCeilings",
+          "prefixed": "fbo-lt:SuspendedCeilings",
+          "label": "Suspended ceilings",
+          "definition": "ceilings that are suspended or otherwise fixed and intended solely to increase the fire resistance of a specific structural element (e.g., floor, ceiling, or roof).",
+          "ontology": "fbo/lt",
+          "ontology_title": "FBO Lithuania",
+          "href": "/documentation/ontologies/fbo/lt/#SuspendedCeilings"
+        }
+      ],
+      "countries": [
+        "be",
+        "dk",
+        "lt"
+      ]
+    },
+    {
+      "id": "CollectiveCoveredCarPark",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#CollectiveCoveredCarPark",
+      "label": "CollectiveCoveredCarPark",
+      "kind": "Object",
+      "ifc_classes": [
+        "IfcSpace.PARKING"
+      ],
+      "ifc_entities": [
+        "IfcSpace"
+      ],
+      "pset_properties": [],
+      "data_type": null,
+      "value": null,
+      "is_buildingsmart": true,
+      "argumentation": null,
+      "interpretation": null,
+      "terms": [
+        {
+          "iri": "https://firebim.org/ontologies/fbo/pt#CollectiveCoveredCarPark",
+          "prefixed": "fbo-pt:CollectiveCoveredCarPark",
+          "label": "Collective covered car park",
+          "definition": "Covered space with an area greater than 50 m2 intended for car parking",
+          "ontology": "fbo/pt",
+          "ontology_title": "FBO Portugal",
+          "href": "/documentation/ontologies/fbo/pt/#CollectiveCoveredCarPark"
+        }
+      ],
+      "countries": [
+        "pt"
+      ]
+    },
+    {
+      "id": "CompartmentTypeBE",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#CompartmentTypeBE",
+      "label": "Compartment Type (BE)",
+      "kind": "Object",
+      "ifc_classes": [
+        "IfcSpace",
+        "IfcSpatialZone.FIRESAFETY"
+      ],
+      "ifc_entities": [
+        "IfcSpace",
+        "IfcSpatialZone"
+      ],
+      "pset_properties": [
+        "CPset_FireBIM.CompartmentType"
+      ],
+      "data_type": "String",
+      "value": "Atrium, TechnicalCompartment, Parking, Duplex, Triplex, Single",
+      "is_buildingsmart": false,
+      "argumentation": "Type could be extracted by looking at all individually referenced spaces. Is it correct to assume that the type is valid if at least one space has this assigned? Can a compartment have multiple types? The “PARKING” predefined type cannot be set at the same time as the “FIRESAFETY” predefined type.",
+      "interpretation": "Can be only one at a time, so “is a” (object/class) is a valid modelling method. When deriving compartment from multiple spaces, it is unclear how to interpret when spaces have different Compartment types",
+      "terms": [
+        {
+          "iri": "https://firebim.org/ontologies/fbo/be#Atrium",
+          "prefixed": "fbo-be:Atrium",
+          "label": "Compartment-type:Atrium",
+          "definition": "Enclosed space, not necessarily vertically aligned, passing through two or more storeys in a building. Lift wells, escalator shafts, building services ducts and protected stairways are not classified as atria",
+          "ontology": "fbo/be",
+          "ontology_title": "FBO Belgium",
+          "href": "/documentation/ontologies/fbo/be/#Atrium"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/be#Parking",
+          "prefixed": "fbo-be:Parking",
+          "label": "Compartment-type:Parking",
+          "definition": "Compartment existing of one ore more parking building layers",
+          "ontology": "fbo/be",
+          "ontology_title": "FBO Belgium",
+          "href": "/documentation/ontologies/fbo/be/#Parking"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/be#SingleFireCompartment",
+          "prefixed": "fbo-be:SingleFireCompartment",
+          "label": "Compartment-type:Single",
+          "definition": "Compartment whose height corresponds to the height of a single building layer",
+          "ontology": "fbo/be",
+          "ontology_title": "FBO Belgium",
+          "href": "/documentation/ontologies/fbo/be/#SingleFireCompartment"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/be#TechnicalFireCompartment",
+          "prefixed": "fbo-be:TechnicalFireCompartment",
+          "label": "Compartment-type:Technical",
+          "definition": "Compartment with one or more technical rooms, possibly over more than one building layer",
+          "ontology": "fbo/be",
+          "ontology_title": "FBO Belgium",
+          "href": "/documentation/ontologies/fbo/be/#TechnicalFireCompartment"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/be#Duplex",
+          "prefixed": "fbo-be:Duplex",
+          "label": "Duplex",
+          "definition": "The compartment formed by two superimposed floors with an internal connecting staircase",
+          "ontology": "fbo/be",
+          "ontology_title": "FBO Belgium",
+          "href": "/documentation/ontologies/fbo/be/#Duplex"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/be#Triplex",
+          "prefixed": "fbo-be:Triplex",
+          "label": "Triplex",
+          "definition": "The compartment formed by three superimposed floors with an internal connecting staircase",
+          "ontology": "fbo/be",
+          "ontology_title": "FBO Belgium",
+          "href": "/documentation/ontologies/fbo/be/#Triplex"
+        }
+      ],
+      "countries": [
+        "be"
+      ]
+    },
+    {
+      "id": "CompartmentBuildingStoreyArea",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#CompartmentBuildingStoreyArea",
+      "label": "CompartmentBuildingStoreyArea",
+      "kind": "Quantity",
+      "ifc_classes": [
+        "IfcBuildingStorey"
+      ],
+      "ifc_entities": [
+        "IfcBuildingStorey"
+      ],
+      "pset_properties": [
+        "Qto_BuildingStoreyBaseQuantities.NetFloorArea"
+      ],
+      "data_type": "Area",
+      "value": null,
+      "is_buildingsmart": true,
+      "argumentation": null,
+      "interpretation": "Is NetFloorArea representative or not?",
+      "terms": [
+        {
+          "iri": "https://firebim.org/ontologies/fbo/lt#BuildingStoreyFloorArea",
+          "prefixed": "fbo-lt:BuildingStoreyFloorArea",
+          "label": "Floor area of the storey of the building",
+          "definition": "Total floor area contain within a storey, excluding the horizontal area of external walls",
+          "ontology": "fbo/lt",
+          "ontology_title": "FBO Lithuania",
+          "href": "/documentation/ontologies/fbo/lt/#BuildingStoreyFloorArea"
+        }
+      ],
+      "countries": [
+        "lt"
+      ]
+    },
+    {
+      "id": "CompartmentBuildingStoreysAreaConnected",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#CompartmentBuildingStoreysAreaConnected",
+      "label": "CompartmentBuildingStoreysAreaConnected",
+      "kind": "Quantity",
+      "ifc_classes": [
+        "???"
+      ],
+      "ifc_entities": [
+        "???"
+      ],
+      "pset_properties": [],
+      "data_type": null,
+      "value": null,
+      "is_buildingsmart": false,
+      "argumentation": null,
+      "interpretation": null,
+      "terms": [],
+      "countries": []
+    },
+    {
+      "id": "ConnectingBuildingStorey",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#ConnectingBuildingStorey",
+      "label": "ConnectingBuildingStorey",
+      "kind": "Object",
+      "ifc_classes": [
+        "IfcBuildingStorey"
+      ],
+      "ifc_entities": [
+        "IfcBuildingStorey"
+      ],
+      "pset_properties": [],
+      "data_type": null,
+      "value": null,
+      "is_buildingsmart": false,
+      "argumentation": null,
+      "interpretation": "This should contain a topological reference to connected/adjacent entities",
+      "terms": [
+        {
+          "iri": "https://firebim.org/ontologies/fbo/lt#ConnectingBuildingStoreys",
+          "prefixed": "fbo-lt:ConnectingBuildingStoreys",
+          "label": "Connecting storeys of the building",
+          "definition": "Connecting spaces between floors in the building (atriums, openings, type 2 staircases, etc.)",
+          "ontology": "fbo/lt",
+          "ontology_title": "FBO Lithuania",
+          "href": "/documentation/ontologies/fbo/lt/#ConnectingBuildingStoreys"
+        }
+      ],
+      "countries": [
+        "lt"
+      ]
+    },
+    {
+      "id": "ConnectingStoreysCodes",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#ConnectingStoreysCodes",
+      "label": "ConnectingStoreysCodes",
+      "kind": "Property",
+      "ifc_classes": [
+        "???"
+      ],
+      "ifc_entities": [
+        "???"
+      ],
+      "pset_properties": [],
+      "data_type": null,
+      "value": null,
+      "is_buildingsmart": false,
+      "argumentation": null,
+      "interpretation": null,
+      "terms": [],
+      "countries": []
+    },
+    {
+      "id": "DominantUse",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#DominantUse",
+      "label": "DominantUse",
+      "kind": "Property",
+      "ifc_classes": [],
+      "ifc_entities": [],
+      "pset_properties": [],
+      "data_type": null,
+      "value": null,
+      "is_buildingsmart": false,
+      "argumentation": null,
+      "interpretation": null,
+      "terms": [
+        {
+          "iri": "https://firebim.org/ontologies/fbo/pt#DominantUse",
+          "prefixed": "fbo-pt:DominantUse",
+          "label": "Dominant use of a occupancy type",
+          "definition": "This is the use which, among the various uses of its spaces, defines the purpose that allows it to be classified as a specific occupancy type (UT I to UT XII).",
+          "ontology": "fbo/pt",
+          "ontology_title": "FBO Portugal",
+          "href": "/documentation/ontologies/fbo/pt/#DominantUse"
+        }
+      ],
+      "countries": [
+        "pt"
+      ]
+    },
+    {
+      "id": "Dwelling",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#Dwelling",
+      "label": "Dwelling",
+      "kind": "Object",
+      "ifc_classes": [],
+      "ifc_entities": [],
+      "pset_properties": [],
+      "data_type": null,
+      "value": null,
+      "is_buildingsmart": false,
+      "argumentation": "Is a set of rooms that, together, form an independent unit for housing. Could be modelled as an IfcZone (group of spaces) or IfcSpatialZone. Is a dwelling always a compartment in itself?",
+      "interpretation": null,
+      "terms": [
+        {
+          "iri": "https://firebim.org/ontologies/fbo/pt#Dwelling",
+          "prefixed": "fbo-pt:Dwelling",
+          "label": "Dwelling",
+          "definition": null,
+          "ontology": "fbo/pt",
+          "ontology_title": "FBO Portugal",
+          "href": "/documentation/ontologies/fbo/pt/#Dwelling"
+        }
+      ],
+      "countries": [
+        "pt"
+      ]
+    },
+    {
+      "id": "EscapeRoute",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#EscapeRoute",
+      "label": "EscapeRoute",
+      "kind": "Object",
+      "ifc_classes": [
+        "IfcSpace",
+        "IfcSpatialZone"
+      ],
+      "ifc_entities": [
+        "IfcSpace",
+        "IfcSpatialZone"
+      ],
+      "pset_properties": [],
+      "data_type": null,
+      "value": null,
+      "is_buildingsmart": false,
+      "argumentation": "We have seen examples where they are modelled with other IFC entities (proxy, slab, …)",
+      "interpretation": null,
+      "terms": [
+        {
+          "iri": "https://firebim.org/ontologies/fbo/dk#EscapeRoute",
+          "prefixed": "fbo-dk:EscapeRoute",
+          "label": "Escape route",
+          "definition": "Route die begint in ruimte voor personen, alleen voert over vloeren, trappen of hellingbanen en eindigt op een veilige plaats, zonder dat gebruik moet worden gemaakt van een lift",
+          "ontology": "fbo/dk",
+          "ontology_title": "FBO Denmark",
+          "href": "/documentation/ontologies/fbo/dk/#EscapeRoute"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/dk#EvacuationRoutePrimary",
+          "prefixed": "fbo-dk:EvacuationRoutePrimary",
+          "label": "Primary Evacuation route",
+          "definition": "Flugtvej, som personer intuitivt vil søge imod ved evakuering, typisk den normale adgangsvej til en bygning eller et rum.",
+          "ontology": "fbo/dk",
+          "ontology_title": "FBO Denmark",
+          "href": "/documentation/ontologies/fbo/dk/#EvacuationRoutePrimary"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/nl#EscapeRoute",
+          "prefixed": "fbo-nl:EscapeRoute",
+          "label": "Escape route",
+          "definition": "Route that starts in a space for people, only runs over floors, stairs or ramps and ends in a safe place, without the need to use a lift",
+          "ontology": "fbo/nl",
+          "ontology_title": "FBO Netherlands",
+          "href": "/documentation/ontologies/fbo/nl/#EscapeRoute"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/pt#EscapeRoute",
+          "prefixed": "fbo-pt:EscapeRoute",
+          "label": "Internal escape route",
+          "definition": "Horizontal or vertical communication within a building which, under the terms of this regulation, provides safe conditions for the evacuation of its occupants. Horizontal evacuation routes may be corridors, antechambers, atriums, galleries or, in large spaces, walkways explicitly marked on the floor for this purpose, which comply with the conditions of this regulation. Vertical evacuation routes may be stairs, ramps, or inclined stairs and escalators, which comply with the conditions of this regulation. Evacuation routes may be protected or unprotected. Protected evacuation routes may be enclosed (interior) or exterior. Unprotected evacuation routes are those that do not fully or partially meet the regulatory conditions for protected routes, although they may be authorised under the conditions set out in this regulation.",
+          "ontology": "fbo/pt",
+          "ontology_title": "FBO Portugal",
+          "href": "/documentation/ontologies/fbo/pt/#EscapeRoute"
+        }
+      ],
+      "countries": [
+        "dk",
+        "nl",
+        "pt"
+      ]
+    },
+    {
+      "id": "Exit",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#Exit",
+      "label": "Exit",
+      "kind": "Object",
+      "ifc_classes": [
+        "IfcDoor"
+      ],
+      "ifc_entities": [
+        "IfcDoor"
+      ],
+      "pset_properties": [
+        "Pset_DoorCommon.FireExit"
+      ],
+      "data_type": "Boolean",
+      "value": "True",
+      "is_buildingsmart": true,
+      "argumentation": null,
+      "interpretation": null,
+      "terms": [
+        {
+          "iri": "https://firebim.org/ontologies/fbo#Exit",
+          "prefixed": "fbo:Exit",
+          "label": "Evacuation Exit",
+          "definition": "(this content has copy right, will be removed after WIP stage)“ designated point of departure from a building or from an enclosure (3.106)” https://www.iso.org/obp/ui/#iso:std:iso:13943:ed-4:v1:en:term:3.120",
+          "ontology": "fbo/core",
+          "ontology_title": "FBO Core",
+          "href": "/documentation/ontologies/fbo/core/#Exit"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo#DoorExit",
+          "prefixed": "fbo:DoorExit",
+          "label": "Exit door",
+          "definition": null,
+          "ontology": "fbo/core",
+          "ontology_title": "FBO Core",
+          "href": "/documentation/ontologies/fbo/core/#DoorExit"
+        }
+      ],
+      "countries": [
+        "core"
+      ]
+    },
+    {
+      "id": "ExitRouteOfBuildingStorey",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#ExitRouteOfBuildingStorey",
+      "label": "ExitRouteOfBuildingStorey",
+      "kind": "Object",
+      "ifc_classes": [],
+      "ifc_entities": [],
+      "pset_properties": [],
+      "data_type": null,
+      "value": null,
+      "is_buildingsmart": false,
+      "argumentation": null,
+      "interpretation": "No harmonized term (only in Miro)",
+      "terms": [],
+      "countries": []
+    },
+    {
+      "id": "ExitRouteRoom",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#ExitRouteRoom",
+      "label": "ExitRouteRoom",
+      "kind": "Object",
+      "ifc_classes": [],
+      "ifc_entities": [],
+      "pset_properties": [],
+      "data_type": null,
+      "value": null,
+      "is_buildingsmart": false,
+      "argumentation": null,
+      "interpretation": "No harmonized term (only in Miro)",
+      "terms": [],
+      "countries": []
+    },
+    {
+      "id": "ExteriorSpace",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#ExteriorSpace",
+      "label": "Exterior Space",
+      "kind": "Object",
+      "ifc_classes": [
+        "IfcSpace"
+      ],
+      "ifc_entities": [
+        "IfcSpace"
+      ],
+      "pset_properties": [
+        "Pset_SpaceCommon.IsExternal"
+      ],
+      "data_type": "Boolean",
+      "value": "True",
+      "is_buildingsmart": true,
+      "argumentation": "IfcSpace.EXTERIOR = deprecated in 4.3",
+      "interpretation": null,
+      "terms": [
+        {
+          "iri": "https://firebim.org/ontologies/fbo/nl#SpaceOutdoor",
+          "prefixed": "fbo-nl:SpaceOutdoor",
+          "label": "outdoor space",
+          "definition": "an outdoor area is a space where light and fresh air can freely flow in and out. Such a space shall therefore be outside the thermal envelope. Examples of outdoor spaces are a garden, a balcony, a loggia or a roof terrace.",
+          "ontology": "fbo/nl",
+          "ontology_title": "FBO Netherlands",
+          "href": "/documentation/ontologies/fbo/nl/#SpaceOutdoor"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/pt#Outdoor",
+          "prefixed": "fbo-pt:Outdoor",
+          "label": "Outdoor",
+          "definition": null,
+          "ontology": "fbo/pt",
+          "ontology_title": "FBO Portugal",
+          "href": "/documentation/ontologies/fbo/pt/#Outdoor"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/pt#OutdoorSpace",
+          "prefixed": "fbo-pt:OutdoorSpace",
+          "label": "OutdoorSpace",
+          "definition": null,
+          "ontology": "fbo/pt",
+          "ontology_title": "FBO Portugal",
+          "href": "/documentation/ontologies/fbo/pt/#OutdoorSpace"
+        }
+      ],
+      "countries": [
+        "nl",
+        "pt"
+      ]
+    },
+    {
+      "id": "ExteriorWall",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#ExteriorWall",
+      "label": "ExteriorWall",
+      "kind": "Object",
+      "ifc_classes": [
+        "IfcWall"
+      ],
+      "ifc_entities": [
+        "IfcWall"
+      ],
+      "pset_properties": [
+        "Pset_WallCommon.IsExternal"
+      ],
+      "data_type": "Boolean",
+      "value": "True",
+      "is_buildingsmart": true,
+      "argumentation": null,
+      "interpretation": null,
+      "terms": [
+        {
+          "iri": "https://firebim.org/ontologies/fbo/be#WallTypeExternal",
+          "prefixed": "fbo-be:WallTypeExternal",
+          "label": "Wall-type:external",
+          "definition": null,
+          "ontology": "fbo/be",
+          "ontology_title": "FBO Belgium",
+          "href": "/documentation/ontologies/fbo/be/#WallTypeExternal"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo#ExteriorWall",
+          "prefixed": "fbo:ExteriorWall",
+          "label": "Exterior Wall",
+          "definition": "(this content has copy right, will be removed after WIP stage) “wall, bearing or non-bearing, that is used as an enclosing wall for a building, other than a fire wall, and that has a slope of 60° or greater with the horizontal planeNote 1 to entry: The exterior wall contains an exterior wall assembly (3.130) which, in turn, includes an exterior wall covering (3.131).” https://www.iso.org/obp/ui/#iso:std:iso:13943:ed-4:v1:en:term:3.129",
+          "ontology": "fbo/core",
+          "ontology_title": "FBO Core",
+          "href": "/documentation/ontologies/fbo/core/#ExteriorWall"
+        }
+      ],
+      "countries": [
+        "be",
+        "core"
+      ]
+    },
+    {
+      "id": "FireClass",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#FireClass",
+      "label": "FireClass",
+      "kind": "Property",
+      "ifc_classes": [
+        "???"
+      ],
+      "ifc_entities": [
+        "???"
+      ],
+      "pset_properties": [
+        "Pset_*Common.FireRating"
+      ],
+      "data_type": "String",
+      "value": "A, B, C, D, E",
+      "is_buildingsmart": false,
+      "argumentation": "Fire behaviour (class in NL regulations)",
+      "interpretation": null,
+      "terms": [
+        {
+          "iri": "https://firebim.org/ontologies/fbo/nl#FireClass",
+          "prefixed": "fbo-nl:FireClass",
+          "label": "Reaction to fire; fire class",
+          "definition": "Fire class determined according to NEN-EN 13501-1",
+          "ontology": "fbo/nl",
+          "ontology_title": "FBO Netherlands",
+          "href": "/documentation/ontologies/fbo/nl/#FireClass"
+        }
+      ],
+      "countries": [
+        "nl"
+      ]
+    },
+    {
+      "id": "FireCompartment1",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#FireCompartment1",
+      "label": "FireCompartment (1)",
+      "kind": "Object",
+      "ifc_classes": [
+        "IfcSpatialZone.FIRESAFETY"
+      ],
+      "ifc_entities": [
+        "IfcSpatialZone"
+      ],
+      "pset_properties": [],
+      "data_type": null,
+      "value": null,
+      "is_buildingsmart": true,
+      "argumentation": "This seems (in general) the preferred entity in IFC to capture a compartment of any kind.",
+      "interpretation": "Modelled compartment",
+      "terms": [
+        {
+          "iri": "https://firebim.org/ontologies/fbo/be#FireCompartment",
+          "prefixed": "fbo-be:FireCompartment",
+          "label": "Compartment",
+          "definition": "Part of a building bounded by walls that serve to prevent the spread of fire to the adjacent compartment or compartments for a certain period of time. A compartment may or may be not divided into rooms.",
+          "ontology": "fbo/be",
+          "ontology_title": "FBO Belgium",
+          "href": "/documentation/ontologies/fbo/be/#FireCompartment"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo#FireCompartment",
+          "prefixed": "fbo:FireCompartment",
+          "label": "Compartment",
+          "definition": "(this content has copy right, will be removed after WIP stage) “Enclosed space, which may be subdivided, separated from adjoining spaces by fire barriers” https://www.iso.org/obp/ui/#iso:std:iso:13943:ed-4:v1:en:term:3.144",
+          "ontology": "fbo/core",
+          "ontology_title": "FBO Core",
+          "href": "/documentation/ontologies/fbo/core/#FireCompartment"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/pt#Compartment",
+          "prefixed": "fbo-pt:Compartment",
+          "label": "Compartment",
+          "definition": null,
+          "ontology": "fbo/pt",
+          "ontology_title": "FBO Portugal",
+          "href": "/documentation/ontologies/fbo/pt/#Compartment"
+        }
+      ],
+      "countries": [
+        "be",
+        "core",
+        "pt"
+      ]
+    },
+    {
+      "id": "FireCompartment2a",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#FireCompartment2a",
+      "label": "FireCompartment (2a)",
+      "kind": "Object",
+      "ifc_classes": [
+        "IfcSpace"
+      ],
+      "ifc_entities": [
+        "IfcSpace"
+      ],
+      "pset_properties": [
+        "ElementType"
+      ],
+      "data_type": "String",
+      "value": "COMPARTMENT",
+      "is_buildingsmart": true,
+      "argumentation": null,
+      "interpretation": "Modelled compartment",
+      "terms": [
+        {
+          "iri": "https://firebim.org/ontologies/fbo#FireCompartment",
+          "prefixed": "fbo:FireCompartment",
+          "label": "Compartment",
+          "definition": "(this content has copy right, will be removed after WIP stage) “Enclosed space, which may be subdivided, separated from adjoining spaces by fire barriers” https://www.iso.org/obp/ui/#iso:std:iso:13943:ed-4:v1:en:term:3.144",
+          "ontology": "fbo/core",
+          "ontology_title": "FBO Core",
+          "href": "/documentation/ontologies/fbo/core/#FireCompartment"
+        }
+      ],
+      "countries": [
+        "core"
+      ]
+    },
+    {
+      "id": "FireCompartment2b",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#FireCompartment2b",
+      "label": "FireCompartment (2b)",
+      "kind": "Object",
+      "ifc_classes": [
+        "IfcSpace"
+      ],
+      "ifc_entities": [
+        "IfcSpace"
+      ],
+      "pset_properties": [
+        "CPset_FireBIM.Compartment"
+      ],
+      "data_type": "String",
+      "value": "<name of compartment>",
+      "is_buildingsmart": false,
+      "argumentation": null,
+      "interpretation": "Aggregate by this value",
+      "terms": [
+        {
+          "iri": "https://firebim.org/ontologies/fbo#FireCompartment",
+          "prefixed": "fbo:FireCompartment",
+          "label": "Compartment",
+          "definition": "(this content has copy right, will be removed after WIP stage) “Enclosed space, which may be subdivided, separated from adjoining spaces by fire barriers” https://www.iso.org/obp/ui/#iso:std:iso:13943:ed-4:v1:en:term:3.144",
+          "ontology": "fbo/core",
+          "ontology_title": "FBO Core",
+          "href": "/documentation/ontologies/fbo/core/#FireCompartment"
+        }
+      ],
+      "countries": [
+        "core"
+      ]
+    },
+    {
+      "id": "FireCompartment2c",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#FireCompartment2c",
+      "label": "FireCompartment (2c)",
+      "kind": "Object",
+      "ifc_classes": [
+        "IfcSpace"
+      ],
+      "ifc_entities": [
+        "IfcSpace"
+      ],
+      "pset_properties": [
+        "Existing classification reference",
+        "e.g. Uniclass"
+      ],
+      "data_type": "String",
+      "value": "FireCompartment",
+      "is_buildingsmart": true,
+      "argumentation": null,
+      "interpretation": null,
+      "terms": [
+        {
+          "iri": "https://firebim.org/ontologies/fbo#FireCompartment",
+          "prefixed": "fbo:FireCompartment",
+          "label": "Compartment",
+          "definition": "(this content has copy right, will be removed after WIP stage) “Enclosed space, which may be subdivided, separated from adjoining spaces by fire barriers” https://www.iso.org/obp/ui/#iso:std:iso:13943:ed-4:v1:en:term:3.144",
+          "ontology": "fbo/core",
+          "ontology_title": "FBO Core",
+          "href": "/documentation/ontologies/fbo/core/#FireCompartment"
+        }
+      ],
+      "countries": [
+        "core"
+      ]
+    },
+    {
+      "id": "FireCompartment3",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#FireCompartment3",
+      "label": "FireCompartment (3)",
+      "kind": "Object",
+      "ifc_classes": [
+        "IfcZone"
+      ],
+      "ifc_entities": [
+        "IfcZone"
+      ],
+      "pset_properties": [
+        "ObjectType"
+      ],
+      "data_type": "String",
+      "value": "FireCompartment",
+      "is_buildingsmart": true,
+      "argumentation": null,
+      "interpretation": null,
+      "terms": [
+        {
+          "iri": "https://firebim.org/ontologies/fbo#FireCompartment",
+          "prefixed": "fbo:FireCompartment",
+          "label": "Compartment",
+          "definition": "(this content has copy right, will be removed after WIP stage) “Enclosed space, which may be subdivided, separated from adjoining spaces by fire barriers” https://www.iso.org/obp/ui/#iso:std:iso:13943:ed-4:v1:en:term:3.144",
+          "ontology": "fbo/core",
+          "ontology_title": "FBO Core",
+          "href": "/documentation/ontologies/fbo/core/#FireCompartment"
+        }
+      ],
+      "countries": [
+        "core"
+      ]
+    },
+    {
+      "id": "FireCompartment4",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#FireCompartment4",
+      "label": "FireCompartment (4)",
+      "kind": "Object",
+      "ifc_classes": [
+        "IfcBuildingElementProxy"
+      ],
+      "ifc_entities": [
+        "IfcBuildingElementProxy"
+      ],
+      "pset_properties": [],
+      "data_type": null,
+      "value": null,
+      "is_buildingsmart": false,
+      "argumentation": null,
+      "interpretation": "Need to define a classification code or naming scheme to identify compartments modelled as a proxy",
+      "terms": [
+        {
+          "iri": "https://firebim.org/ontologies/fbo/lt#FireCompartment",
+          "prefixed": "fbo-lt:FireCompartment",
+          "label": "Fire compartment",
+          "definition": "a closed space in a building (a room or group of rooms) separated from other parts of the same building by structural elements with a specified fire resistance rating, during which time a fire can be extinguished or prevented from spreading to other parts of the building.",
+          "ontology": "fbo/lt",
+          "ontology_title": "FBO Lithuania",
+          "href": "/documentation/ontologies/fbo/lt/#FireCompartment"
+        }
+      ],
+      "countries": [
+        "lt"
+      ]
+    },
+    {
+      "id": "FireCompartmentHeight",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#FireCompartmentHeight",
+      "label": "FireCompartmentHeight",
+      "kind": "Quantity",
+      "ifc_classes": [
+        "IfcSpace"
+      ],
+      "ifc_entities": [
+        "IfcSpace"
+      ],
+      "pset_properties": [],
+      "data_type": null,
+      "value": null,
+      "is_buildingsmart": false,
+      "argumentation": null,
+      "interpretation": "Mentioned in MIRO, but not in Matrix",
+      "terms": [],
+      "countries": []
+    },
+    {
+      "id": "FireResistance",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#FireResistance",
+      "label": "FireResistance",
+      "kind": "Property",
+      "ifc_classes": [
+        "IfcRamp",
+        "IfcOpeningElement",
+        "IfcDoor",
+        "IfcColumn",
+        "IfcChimney",
+        "IfcCurtainWall",
+        "IfcCovering",
+        "IfcBeam",
+        "IfcMember",
+        "IfcStair",
+        "IfcPlate",
+        "IfcSlab",
+        "IfcWall",
+        "IfcTelecomCable",
+        "IfcRoof",
+        "IfcBuildingElementProxy",
+        "IfcWindow"
+      ],
+      "ifc_entities": [
+        "IfcRamp",
+        "IfcOpeningElement",
+        "IfcDoor",
+        "IfcColumn",
+        "IfcChimney",
+        "IfcCurtainWall",
+        "IfcCovering",
+        "IfcBeam",
+        "IfcMember",
+        "IfcStair",
+        "IfcPlate",
+        "IfcSlab",
+        "IfcWall",
+        "IfcTelecomCable",
+        "IfcRoof",
+        "IfcBuildingElementProxy",
+        "IfcWindow"
+      ],
+      "pset_properties": [
+        "Pset_*Common.FireRating"
+      ],
+      "data_type": "String",
+      "value": "<REI value string>",
+      "is_buildingsmart": true,
+      "argumentation": null,
+      "interpretation": "Need to define a string or pattern of allowed values. This is NOT merely a number",
+      "terms": [
+        {
+          "iri": "https://firebim.org/ontologies/fbo#FireResistance",
+          "prefixed": "fbo:FireResistance",
+          "label": "Fire Resistance",
+          "definition": "(this content has copy right, will be removed after WIP stage)  “ability of a test specimen (3.428) to withstand fire (3.138) or give protection from it for a period of timeNote 1 to entry: Typical criteria used to assess fire resistance in a standard fire test (3.180) are fire integrity (3.157), fire stability (3.179)and thermal insulation (3.435).Note 2 to entry: “Fire resistant” (adj.) refers only to this ability.Note 3 to entry: The term \"fireproof\" has been used to describe buildings with non-combustible (3.315) structural elements and high levels of fire resistance, but this is a deprecated term. The term is often misunderstood to mean an absolute or unconditional property, and therefore the use of the term \"fireproof\" is inappropriate and misleading.” https://www.iso.org/obp/ui/#iso:std:iso:13943:ed-4:v1:en:term:3.165",
+          "ontology": "fbo/core",
+          "ontology_title": "FBO Core",
+          "href": "/documentation/ontologies/fbo/core/#FireResistance"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/dk#FireResistance",
+          "prefixed": "fbo-dk:FireResistance",
+          "label": "Fire resistance",
+          "definition": "Det tidsrum, hvor en bygningsdel under brandpåvirkning kan opretholde sin ydeevne i form af f.eks. bæreevne eller adskillende funktion",
+          "ontology": "fbo/dk",
+          "ontology_title": "FBO Denmark",
+          "href": "/documentation/ontologies/fbo/dk/#FireResistance"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/lt#FireResistance",
+          "prefixed": "fbo-lt:FireResistance",
+          "label": "Fire Resistance",
+          "definition": "the ability of a building structure or element (construction product) to withstand specified loads and/or to maintain thermal insulation properties and/or to remain homogeneous (sealed, crack-free) during a specified period of time in a standardised fire resistance test",
+          "ontology": "fbo/lt",
+          "ontology_title": "FBO Lithuania",
+          "href": "/documentation/ontologies/fbo/lt/#FireResistance"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/pt#FireResistance",
+          "prefixed": "fbo-pt:FireResistance",
+          "label": "Fire Resistance",
+          "definition": "Ability of a structure, part of a structure or element to perform its intended functions (load-bearing function and/or compartmentalisation function) for a specific load level, when subjected to a specific fire situation and for a specified period of time.",
+          "ontology": "fbo/pt",
+          "ontology_title": "FBO Portugal",
+          "href": "/documentation/ontologies/fbo/pt/#FireResistance"
+        }
+      ],
+      "countries": [
+        "core",
+        "dk",
+        "lt",
+        "pt"
+      ]
+    },
+    {
+      "id": "FireResistanceBuilding",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#FireResistanceBuilding",
+      "label": "FireResistanceBuilding",
+      "kind": "Property",
+      "ifc_classes": [
+        "IfcBuilding"
+      ],
+      "ifc_entities": [
+        "IfcBuilding"
+      ],
+      "pset_properties": [
+        "Pset_SpaceFireSafetyRequirements.FireRiskFactor"
+      ],
+      "data_type": "String",
+      "value": "I, II, III",
+      "is_buildingsmart": false,
+      "argumentation": null,
+      "interpretation": "Need to define a string or pattern of allowed values. This is NOT merely a number",
+      "terms": [
+        {
+          "iri": "https://firebim.org/ontologies/fbo/lt#FireResistanceDegreeOfBuilding",
+          "prefixed": "fbo-lt:FireResistanceDegreeOfBuilding",
+          "label": "Fire resistance rating of the Building",
+          "definition": "Buildings and fire compartments of buildings, taking into account their fire load categories and the fire resistance of the structural elements used to build them, are divided into buildings and fire compartments of fire resistance levels I, II, III.",
+          "ontology": "fbo/lt",
+          "ontology_title": "FBO Lithuania",
+          "href": "/documentation/ontologies/fbo/lt/#FireResistanceDegreeOfBuilding"
+        }
+      ],
+      "countries": [
+        "lt"
+      ]
+    },
+    {
+      "id": "FireSafetyAssessmentCoefficient",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#FireSafetyAssessmentCoefficient",
+      "label": "FireSafetyAssessmentCoefficient",
+      "kind": "Property",
+      "ifc_classes": [
+        "IfcBuilding"
+      ],
+      "ifc_entities": [
+        "IfcBuilding"
+      ],
+      "pset_properties": [
+        "CPset_FireBIM.FireSafeteyAssessmentCoefficient"
+      ],
+      "data_type": "Decimal",
+      "value": null,
+      "is_buildingsmart": false,
+      "argumentation": "If calculated, the different coefficients need to be provided (or also calculated)",
+      "interpretation": "Result of a calculation based on coefficients. To confirm if this is defined for the building or per compartment",
+      "terms": [],
+      "countries": []
+    },
+    {
+      "id": "FunctionSpace",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#FunctionSpace",
+      "label": "FunctionSpace",
+      "kind": "Property",
+      "ifc_classes": [
+        "IfcSpace"
+      ],
+      "ifc_entities": [
+        "IfcSpace"
+      ],
+      "pset_properties": [
+        "CPset_FireBIM.FunctionSpace"
+      ],
+      "data_type": "String",
+      "value": "HorizontalRoute, VerticalRoute, CommonArea, Dwelling, ProtectedLobby, RefugeSpace, TechnicalDucts, IndoorSpace, Lift, Bathroom",
+      "is_buildingsmart": false,
+      "argumentation": null,
+      "interpretation": "Dwelling, but actually “interior space of a dwelling” where Dwelling is not a property of an individual space, but of the building (or part of a building?). Similarly, HorizontalRoute and others have been defined as terms",
+      "terms": [
+        {
+          "iri": "https://firebim.org/ontologies/fbo/pt#CommonArea",
+          "prefixed": "fbo-pt:CommonArea",
+          "label": "CommonArea",
+          "definition": null,
+          "ontology": "fbo/pt",
+          "ontology_title": "FBO Portugal",
+          "href": "/documentation/ontologies/fbo/pt/#CommonArea"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/pt#Dwelling",
+          "prefixed": "fbo-pt:Dwelling",
+          "label": "Dwelling",
+          "definition": null,
+          "ontology": "fbo/pt",
+          "ontology_title": "FBO Portugal",
+          "href": "/documentation/ontologies/fbo/pt/#Dwelling"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/pt#FunctionSpace",
+          "prefixed": "fbo-pt:FunctionSpace",
+          "label": "Function space",
+          "definition": null,
+          "ontology": "fbo/pt",
+          "ontology_title": "FBO Portugal",
+          "href": "/documentation/ontologies/fbo/pt/#FunctionSpace"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/pt#HorizontalRoute",
+          "prefixed": "fbo-pt:HorizontalRoute",
+          "label": "HorizontalRoute",
+          "definition": "Horizontal communication in a building that provides safe conditions for the evacuation of its occupants. Horizontal evacuation routes may be corridors, antechambers, atriums, galleries, or, in large spaces, walkways explicitly marked on the floor for this purpose, which comply with the conditions of the Technical Regulations. Evacuation routes may be protected or unprotected. Protected evacuation routes may be enclosed (interior) or exterior.",
+          "ontology": "fbo/pt",
+          "ontology_title": "FBO Portugal",
+          "href": "/documentation/ontologies/fbo/pt/#HorizontalRoute"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/pt#IndoorSpace",
+          "prefixed": "fbo-pt:IndoorSpace",
+          "label": "Indoor space",
+          "definition": null,
+          "ontology": "fbo/pt",
+          "ontology_title": "FBO Portugal",
+          "href": "/documentation/ontologies/fbo/pt/#IndoorSpace"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/pt#ProtectedLobby",
+          "prefixed": "fbo-pt:ProtectedLobby",
+          "label": "Protected lobby",
+          "definition": "Independent fire compartment, with a degree of resistance and smoke control systems, which generally establishes communication between two spaces with the aim of ensuring the temporary protection of one of them or preventing the spread of fire between them.",
+          "ontology": "fbo/pt",
+          "ontology_title": "FBO Portugal",
+          "href": "/documentation/ontologies/fbo/pt/#ProtectedLobby"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/pt#RefugeSpace",
+          "prefixed": "fbo-pt:RefugeSpace",
+          "label": "Refuge space",
+          "definition": "A space within a building, temporarily safe, specially equipped with protective measures, so that people are not exposed to the direct effects of a fire in the building.",
+          "ontology": "fbo/pt",
+          "ontology_title": "FBO Portugal",
+          "href": "/documentation/ontologies/fbo/pt/#RefugeSpace"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/pt#TechnicalDucts",
+          "prefixed": "fbo-pt:TechnicalDucts",
+          "label": "Technical ducts / shafts",
+          "definition": null,
+          "ontology": "fbo/pt",
+          "ontology_title": "FBO Portugal",
+          "href": "/documentation/ontologies/fbo/pt/#TechnicalDucts"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/pt#VerticalRoute",
+          "prefixed": "fbo-pt:VerticalRoute",
+          "label": "VerticalRoute",
+          "definition": "Vertical communication in a building that provides safe conditions for the evacuation of its occupants. Vertical evacuation routes may be stairs, ramps, or stairs and inclined escalators, which comply with the conditions of the Technical Regulations. Evacuation routes may be protected or unprotected. Protected evacuation routes may be enclosed (interior) or exterior.",
+          "ontology": "fbo/pt",
+          "ontology_title": "FBO Portugal",
+          "href": "/documentation/ontologies/fbo/pt/#VerticalRoute"
+        }
+      ],
+      "countries": [
+        "pt"
+      ]
+    },
+    {
+      "id": "FunctionType",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#FunctionType",
+      "label": "FunctionType",
+      "kind": "Property",
+      "ifc_classes": [
+        "IfcSpace",
+        "IfcSpatialZone.FIRESAFETY"
+      ],
+      "ifc_entities": [
+        "IfcSpace",
+        "IfcSpatialZone"
+      ],
+      "pset_properties": [
+        "CPset_FireBIM.FunctionType"
+      ],
+      "data_type": "String",
+      "value": null,
+      "is_buildingsmart": false,
+      "argumentation": null,
+      "interpretation": null,
+      "terms": [
+        {
+          "iri": "https://firebim.org/ontologies/fbo/nl#FunctionTypeAncillaryFunction",
+          "prefixed": "fbo-nl:FunctionTypeAncillaryFunction",
+          "label": "Ancillary function",
+          "definition": "Functional unit serving another function",
+          "ontology": "fbo/nl",
+          "ontology_title": "FBO Netherlands",
+          "href": "/documentation/ontologies/fbo/nl/#FunctionTypeAncillaryFunction"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/nl#FunctionTypeAssemblyFunction",
+          "prefixed": "fbo-nl:FunctionTypeAssemblyFunction",
+          "label": "Assembly function",
+          "definition": "Functional unit for gatherings of persons for art, culture, religion, communication, child care, the distribution of refreshments for consumption on the premises or watching sports",
+          "ontology": "fbo/nl",
+          "ontology_title": "FBO Netherlands",
+          "href": "/documentation/ontologies/fbo/nl/#FunctionTypeAssemblyFunction"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/nl#FunctionTypeChildCare",
+          "prefixed": "fbo-nl:FunctionTypeChildCare",
+          "label": "Assembly function for child care",
+          "definition": "Functional unit for the commercial provision of care, education, and supervision for children who have not yet terminated their primary education, other than family day care as referred to in the Child Care and Nursery Schools Quality Requirements Act [Wet kinderopvang en kwaliteitseisen peuterspeelzalen]",
+          "ontology": "fbo/nl",
+          "ontology_title": "FBO Netherlands",
+          "href": "/documentation/ontologies/fbo/nl/#FunctionTypeChildCare"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/nl#FunctionTypeDetention",
+          "prefixed": "fbo-nl:FunctionTypeDetention",
+          "label": "Detention function",
+          "definition": "Functional unit for the detention of persons",
+          "ontology": "fbo/nl",
+          "ontology_title": "FBO Netherlands",
+          "href": "/documentation/ontologies/fbo/nl/#FunctionTypeDetention"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/nl#FunctionTypeEducational",
+          "prefixed": "fbo-nl:FunctionTypeEducational",
+          "label": "Educational function",
+          "definition": "Functional unit for teaching",
+          "ontology": "fbo/nl",
+          "ontology_title": "FBO Netherlands",
+          "href": "/documentation/ontologies/fbo/nl/#FunctionTypeEducational"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/nl#FunctionType",
+          "prefixed": "fbo-nl:FunctionType",
+          "label": "Functional usage",
+          "definition": "Parts of one or more structures having the same intended use and which together form a functional unit",
+          "ontology": "fbo/nl",
+          "ontology_title": "FBO Netherlands",
+          "href": "/documentation/ontologies/fbo/nl/#FunctionType"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/nl#FunctionTypeHealthCare",
+          "prefixed": "fbo-nl:FunctionTypeHealthCare",
+          "label": "Health care function",
+          "definition": "Functional unit for medical examinations, nursing, care or treatment",
+          "ontology": "fbo/nl",
+          "ontology_title": "FBO Netherlands",
+          "href": "/documentation/ontologies/fbo/nl/#FunctionTypeHealthCare"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/nl#FunctionTypeHealthCareWithBedArea",
+          "prefixed": "fbo-nl:FunctionTypeHealthCareWithBedArea",
+          "label": "Health care function: with bed area",
+          "definition": "Health care function with bed area",
+          "ontology": "fbo/nl",
+          "ontology_title": "FBO Netherlands",
+          "href": "/documentation/ontologies/fbo/nl/#FunctionTypeHealthCareWithBedArea"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/nl#FunctionTypeIndustrial",
+          "prefixed": "fbo-nl:FunctionTypeIndustrial",
+          "label": "Industrial function",
+          "definition": "Functional unit for the commercial processing or storage of materials and goods, or for agricultural purposes",
+          "ontology": "fbo/nl",
+          "ontology_title": "FBO Netherlands",
+          "href": "/documentation/ontologies/fbo/nl/#FunctionTypeIndustrial"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/nl#FunctionTypeLightIndustrial",
+          "prefixed": "fbo-nl:FunctionTypeLightIndustrial",
+          "label": "Industrial function: light industrial function",
+          "definition": "Industrial function where activities take place in which the staying of persons plays a subordinate role",
+          "ontology": "fbo/nl",
+          "ontology_title": "FBO Netherlands",
+          "href": "/documentation/ontologies/fbo/nl/#FunctionTypeLightIndustrial"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/nl#FunctionTypeLightIndustrialCultivating",
+          "prefixed": "fbo-nl:FunctionTypeLightIndustrialCultivating",
+          "label": "Industrial function: light industrial function for growing, cultivating or storing crops or similar products",
+          "definition": "Light industrial function in which cultivating or storing crops is the main purpose",
+          "ontology": "fbo/nl",
+          "ontology_title": "FBO Netherlands",
+          "href": "/documentation/ontologies/fbo/nl/#FunctionTypeLightIndustrialCultivating"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/nl#FunctionTypeLightIndustrialAnimals",
+          "prefixed": "fbo-nl:FunctionTypeLightIndustrialAnimals",
+          "label": "Industrial function: light industrial function for keeping animals",
+          "definition": "Light industrial function in which animals as referred to in Annex II to the Decree on Animal Keepers (bijlage II bij het Besluit houders voor dieren) are kept",
+          "ontology": "fbo/nl",
+          "ontology_title": "FBO Netherlands",
+          "href": "/documentation/ontologies/fbo/nl/#FunctionTypeLightIndustrialAnimals"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/nl#FunctionTypeOffice",
+          "prefixed": "fbo-nl:FunctionTypeOffice",
+          "label": "Office function",
+          "definition": "Functional unit for office administration",
+          "ontology": "fbo/nl",
+          "ontology_title": "FBO Netherlands",
+          "href": "/documentation/ontologies/fbo/nl/#FunctionTypeOffice"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/nl#FunctionTypeRemainingUse",
+          "prefixed": "fbo-nl:FunctionTypeRemainingUse",
+          "label": "Remaining functional use",
+          "definition": "Functional unit, not already categorized, for activities where staying by persons plays a subordinate role",
+          "ontology": "fbo/nl",
+          "ontology_title": "FBO Netherlands",
+          "href": "/documentation/ontologies/fbo/nl/#FunctionTypeRemainingUse"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/nl#FunctionTypeRemainingUseParkingVehicles",
+          "prefixed": "fbo-nl:FunctionTypeRemainingUseParkingVehicles",
+          "label": "Remaining functional use: for parking motor vehicles",
+          "definition": "Remaining functional unit intented for parking motor vehicles",
+          "ontology": "fbo/nl",
+          "ontology_title": "FBO Netherlands",
+          "href": "/documentation/ontologies/fbo/nl/#FunctionTypeRemainingUseParkingVehicles"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/nl#FunctionTypeRemainingUsePassengerTransport",
+          "prefixed": "fbo-nl:FunctionTypeRemainingUsePassengerTransport",
+          "label": "Remaining functional use: other passenger transport function:",
+          "definition": "Remaining functional unit intended for the arrival or departure of vehicles for thetransport of passengers by road, railway, waterway or air",
+          "ontology": "fbo/nl",
+          "ontology_title": "FBO Netherlands",
+          "href": "/documentation/ontologies/fbo/nl/#FunctionTypeRemainingUsePassengerTransport"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/nl#FunctionTypeResidential",
+          "prefixed": "fbo-nl:FunctionTypeResidential",
+          "label": "Residential function",
+          "definition": "Functional unit for residential use",
+          "ontology": "fbo/nl",
+          "ontology_title": "FBO Netherlands",
+          "href": "/documentation/ontologies/fbo/nl/#FunctionTypeResidential"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/nl#FunctionTypeResidentialWithCare",
+          "prefixed": "fbo-nl:FunctionTypeResidentialWithCare",
+          "label": "Residential function with care",
+          "definition": "Residential function where professional care is provided to residents in the context of a combination of residence and care, organised by health care providers, in a residential function intended and equipped for that purpose;",
+          "ontology": "fbo/nl",
+          "ontology_title": "FBO Netherlands",
+          "href": "/documentation/ontologies/fbo/nl/#FunctionTypeResidentialWithCare"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/nl#FunctionTypeResidentialCaravan",
+          "prefixed": "fbo-nl:FunctionTypeResidentialCaravan",
+          "label": "Residential function: caravan",
+          "definition": "Residential function on a plot intended for a caravan",
+          "ontology": "fbo/nl",
+          "ontology_title": "FBO Netherlands",
+          "href": "/documentation/ontologies/fbo/nl/#FunctionTypeResidentialCaravan"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/nl#FunctionTypeShop",
+          "prefixed": "fbo-nl:FunctionTypeShop",
+          "label": "Shop function",
+          "definition": "Functional unit for trading materials, goods or services",
+          "ontology": "fbo/nl",
+          "ontology_title": "FBO Netherlands",
+          "href": "/documentation/ontologies/fbo/nl/#FunctionTypeShop"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/nl#FunctionTypeSports",
+          "prefixed": "fbo-nl:FunctionTypeSports",
+          "label": "Sports function",
+          "definition": "Functional unit for playing sports",
+          "ontology": "fbo/nl",
+          "ontology_title": "FBO Netherlands",
+          "href": "/documentation/ontologies/fbo/nl/#FunctionTypeSports"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/nl#FunctionTypeNotBuilding",
+          "prefixed": "fbo-nl:FunctionTypeNotBuilding",
+          "label": "Structure other than a building",
+          "definition": "Building or part thereof, insofar as it is not a building or part thereof",
+          "ontology": "fbo/nl",
+          "ontology_title": "FBO Netherlands",
+          "href": "/documentation/ontologies/fbo/nl/#FunctionTypeNotBuilding"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/nl#FunctionTypeTemporaryAccomodation",
+          "prefixed": "fbo-nl:FunctionTypeTemporaryAccomodation",
+          "label": "Temporary accomodation function",
+          "definition": "Functional unit intended to provide recreational or temporary accommodation to persons",
+          "ontology": "fbo/nl",
+          "ontology_title": "FBO Netherlands",
+          "href": "/documentation/ontologies/fbo/nl/#FunctionTypeTemporaryAccomodation"
+        }
+      ],
+      "countries": [
+        "nl"
+      ]
+    },
+    {
+      "id": "GrossArea",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#GrossArea",
+      "label": "GrossArea",
+      "kind": "Quantity",
+      "ifc_classes": [
+        "IfcSpace",
+        "IfcSpace.GFA",
+        "IfcSpatialZone.FIRESAFETY",
+        "IfcBuildingStorey"
+      ],
+      "ifc_entities": [
+        "IfcSpace",
+        "IfcSpace",
+        "IfcSpatialZone",
+        "IfcBuildingStorey"
+      ],
+      "pset_properties": [
+        "Qto_SpaceBaseQuantities.GrossFloorArea",
+        "Qto_BuildingStoreyBaseQuantities.GrossFloorArea"
+      ],
+      "data_type": "Area",
+      "value": null,
+      "is_buildingsmart": true,
+      "argumentation": "IfcSpace.GFA refers to building storey gross floor area (= Gross Level Area)",
+      "interpretation": null,
+      "terms": [
+        {
+          "iri": "https://firebim.org/ontologies/fbo/pt#GrossArea",
+          "prefixed": "fbo-pt:GrossArea",
+          "label": "Gross area of a floor or fraction",
+          "definition": "Total surface area of a given floor or fraction, delimited by the outer perimeter of the exterior walls and the axes of the interior walls separating that fraction from the others",
+          "ontology": "fbo/pt",
+          "ontology_title": "FBO Portugal",
+          "href": "/documentation/ontologies/fbo/pt/#GrossArea"
+        }
+      ],
+      "countries": [
+        "pt"
+      ]
+    },
+    {
+      "id": "HeightBuilding",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#HeightBuilding",
+      "label": "HeightBuilding",
+      "kind": "Property",
+      "ifc_classes": [
+        "IfcBuilding"
+      ],
+      "ifc_entities": [
+        "IfcBuilding"
+      ],
+      "pset_properties": [
+        "CPset_FireBIM.HeightBuilding"
+      ],
+      "data_type": "Length",
+      "value": null,
+      "is_buildingsmart": false,
+      "argumentation": "Cannot use IfcBuilding.Qto_BuildingBaseQuantities.Height (different measurement method)",
+      "interpretation": "Reference height, as derived from the measurement method of the national regulation",
+      "terms": [
+        {
+          "iri": "https://firebim.org/ontologies/fbo#HeightBuilding",
+          "prefixed": "fbo:HeightBuilding",
+          "label": "Building height",
+          "definition": null,
+          "ontology": "fbo/core",
+          "ontology_title": "FBO Core",
+          "href": "/documentation/ontologies/fbo/core/#HeightBuilding"
+        }
+      ],
+      "countries": [
+        "core"
+      ]
+    },
+    {
+      "id": "HeightBuildingStorey",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#HeightBuildingStorey",
+      "label": "HeightBuildingStorey",
+      "kind": "Quantity",
+      "ifc_classes": [
+        "IfcBuildingStorey"
+      ],
+      "ifc_entities": [
+        "IfcBuildingStorey"
+      ],
+      "pset_properties": [],
+      "data_type": null,
+      "value": null,
+      "is_buildingsmart": false,
+      "argumentation": null,
+      "interpretation": "Mentioned in MIRO, but not in Matrix",
+      "terms": [],
+      "countries": []
+    },
+    {
+      "id": "HighRiseBuillding",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#HighRiseBuillding",
+      "label": "HighRiseBuillding",
+      "kind": "Object",
+      "ifc_classes": [
+        "IfcBuilding"
+      ],
+      "ifc_entities": [
+        "IfcBuilding"
+      ],
+      "pset_properties": [
+        "CPset_FireBIM.BuildingHeightClassification",
+        "Pset_BuidingCommon.FireProtectionClass"
+      ],
+      "data_type": "String",
+      "value": "HighRiseBuilding",
+      "is_buildingsmart": false,
+      "argumentation": "Cannot use IfcBuilding.Qto_BuildingBaseQuantities.Height (different measurement method)",
+      "interpretation": "Is FireProtectionClass a suitable property?",
+      "terms": [
+        {
+          "iri": "https://firebim.org/ontologies/fbo/be#HighRiseBuilding",
+          "prefixed": "fbo-be:HighRiseBuilding",
+          "label": "High Rise building",
+          "definition": "Building of which the height is greater than 25 m",
+          "ontology": "fbo/be",
+          "ontology_title": "FBO Belgium",
+          "href": "/documentation/ontologies/fbo/be/#HighRiseBuilding"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/pt#HighRiseBuilding",
+          "prefixed": "fbo-pt:HighRiseBuilding",
+          "label": "High-rise building",
+          "definition": "28 m < Height (H) ≤ 50 m",
+          "ontology": "fbo/pt",
+          "ontology_title": "FBO Portugal",
+          "href": "/documentation/ontologies/fbo/pt/#HighRiseBuilding"
+        }
+      ],
+      "countries": [
+        "be",
+        "pt"
+      ]
+    },
+    {
+      "id": "HoseReel",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#HoseReel",
+      "label": "HoseReel",
+      "kind": "Object",
+      "ifc_classes": [
+        "IfcFireSuppressionTerminal.HOSEREEL"
+      ],
+      "ifc_entities": [
+        "IfcFireSuppressionTerminal"
+      ],
+      "pset_properties": [],
+      "data_type": null,
+      "value": null,
+      "is_buildingsmart": true,
+      "argumentation": null,
+      "interpretation": null,
+      "terms": [
+        {
+          "iri": "https://firebim.org/ontologies/fbo#HoseReel",
+          "prefixed": "fbo:HoseReel",
+          "label": "Hose reel",
+          "definition": "A fire hose reel is a flexible hose that is connected to a hydrant in order to extinguish a fire. It is often supported by a reel and the ensemble is known as a hydrant or reel depending on the region",
+          "ontology": "fbo/core",
+          "ontology_title": "FBO Core",
+          "href": "/documentation/ontologies/fbo/core/#HoseReel"
+        }
+      ],
+      "countries": [
+        "core"
+      ]
+    },
+    {
+      "id": "IntendedUseOfBuilding",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#IntendedUseOfBuilding",
+      "label": "IntendedUseOfBuilding",
+      "kind": "Property",
+      "ifc_classes": [
+        "IfcBuilding"
+      ],
+      "ifc_entities": [
+        "IfcBuilding"
+      ],
+      "pset_properties": [
+        "CPset_FireBIM.IntendedUseOfBuilding",
+        "Pset_BuildingUse.MarketCategory",
+        "Pset_SpaceCommon.OccupancyType"
+      ],
+      "data_type": "String",
+      "value": "Public Building, Kindergarten, Education, Hospital, Hotel, Other",
+      "is_buildingsmart": false,
+      "argumentation": null,
+      "interpretation": "Fixed list (non-exhaustive in flowchart?). Free text is hard to interpret automatically. Cannot be “Public Building” and at the same time one of the other values (such as Kindergarten, Education, …)",
+      "terms": [
+        {
+          "iri": "https://firebim.org/ontologies/fbo/lt#IntendedUseOfBuilding",
+          "prefixed": "fbo-lt:IntendedUseOfBuilding",
+          "label": "Intended use of the building",
+          "definition": "The purpose of a building is considered to be the intended use of the building as specified in the public register, provided that the building complies with the mandatory requirements for safety and the activities (technological processes) planned (carried out) therein, as set out in the normative documents on building safety and purpose. When changing the purpose of a building, a building permit is required in the case specified in Article 27(1)(6) of the Construction Law. The composition of a building purpose change project is specified in STR 1.04.04:2017 “Building design, project expertise.”",
+          "ontology": "fbo/lt",
+          "ontology_title": "FBO Lithuania",
+          "href": "/documentation/ontologies/fbo/lt/#IntendedUseOfBuilding"
+        }
+      ],
+      "countries": [
+        "lt"
+      ]
+    },
+    {
+      "id": "InteriorSpace",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#InteriorSpace",
+      "label": "InteriorSpace",
+      "kind": "Object",
+      "ifc_classes": [
+        "IfcSpace"
+      ],
+      "ifc_entities": [
+        "IfcSpace"
+      ],
+      "pset_properties": [
+        "Pset_SpaceCommon.IsExternal"
+      ],
+      "data_type": "Boolean",
+      "value": "False",
+      "is_buildingsmart": true,
+      "argumentation": "IfcSpace.INTERIOR = deprecated in 4.3",
+      "interpretation": null,
+      "terms": [
+        {
+          "iri": "https://firebim.org/ontologies/fbo/nl#EnclosedSpace",
+          "prefixed": "fbo-nl:EnclosedSpace",
+          "label": "Enclosed space",
+          "definition": null,
+          "ontology": "fbo/nl",
+          "ontology_title": "FBO Netherlands",
+          "href": "/documentation/ontologies/fbo/nl/#EnclosedSpace"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/pt#IndoorSpace",
+          "prefixed": "fbo-pt:IndoorSpace",
+          "label": "Indoor space",
+          "definition": null,
+          "ontology": "fbo/pt",
+          "ontology_title": "FBO Portugal",
+          "href": "/documentation/ontologies/fbo/pt/#IndoorSpace"
+        }
+      ],
+      "countries": [
+        "nl",
+        "pt"
+      ]
+    },
+    {
+      "id": "InternalWall",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#InternalWall",
+      "label": "InternalWall",
+      "kind": "Object",
+      "ifc_classes": [
+        "IfcWall"
+      ],
+      "ifc_entities": [
+        "IfcWall"
+      ],
+      "pset_properties": [
+        "Pset_WallCommon.IsExternal"
+      ],
+      "data_type": "Boolean",
+      "value": "False",
+      "is_buildingsmart": true,
+      "argumentation": null,
+      "interpretation": null,
+      "terms": [
+        {
+          "iri": "https://firebim.org/ontologies/fbo/be#WallTypeInternal",
+          "prefixed": "fbo-be:WallTypeInternal",
+          "label": "Wall-type:internal",
+          "definition": null,
+          "ontology": "fbo/be",
+          "ontology_title": "FBO Belgium",
+          "href": "/documentation/ontologies/fbo/be/#WallTypeInternal"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/nl#BuildingInternalWall",
+          "prefixed": "fbo-nl:BuildingInternalWall",
+          "label": "Internal wall",
+          "definition": "Structure which separates two enclosed spaces in a building that are accessible to people, including parts of that structure connected to other structures insofar as those parts affect the compliance of the partition with a regulation under or pursuant to this decree",
+          "ontology": "fbo/nl",
+          "ontology_title": "FBO Netherlands",
+          "href": "/documentation/ontologies/fbo/nl/#BuildingInternalWall"
+        }
+      ],
+      "countries": [
+        "be",
+        "nl"
+      ]
+    },
+    {
+      "id": "ListedProperty",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#ListedProperty",
+      "label": "ListedProperty",
+      "kind": "Property",
+      "ifc_classes": [
+        "IfcBuilding"
+      ],
+      "ifc_entities": [
+        "IfcBuilding"
+      ],
+      "pset_properties": [
+        "Pset_BuildingCommon.IsLandmarked"
+      ],
+      "data_type": "Boolean",
+      "value": "True",
+      "is_buildingsmart": true,
+      "argumentation": null,
+      "interpretation": null,
+      "terms": [
+        {
+          "iri": "https://firebim.org/ontologies/fbo/pt#ListedProperty",
+          "prefixed": "fbo-pt:ListedProperty",
+          "label": "Listed property",
+          "definition": "Monuments classified under Law No. 107/2001 of September 8",
+          "ontology": "fbo/pt",
+          "ontology_title": "FBO Portugal",
+          "href": "/documentation/ontologies/fbo/pt/#ListedProperty"
+        }
+      ],
+      "countries": [
+        "pt"
+      ]
+    },
+    {
+      "id": "LowRiseBuilding",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#LowRiseBuilding",
+      "label": "LowRiseBuilding",
+      "kind": "Object",
+      "ifc_classes": [
+        "IfcBuilding"
+      ],
+      "ifc_entities": [
+        "IfcBuilding"
+      ],
+      "pset_properties": [
+        "CPset_FireBIM.BuildingHeightClassification",
+        "Pset_BuidingCommon.FireProtectionClass"
+      ],
+      "data_type": "String",
+      "value": "LowRiseBuilding",
+      "is_buildingsmart": false,
+      "argumentation": "Cannot use IfcBuilding.Qto_BuildingBaseQuantities.Height (different measurement method)",
+      "interpretation": "Is FireProtectionClass a suitable property?",
+      "terms": [
+        {
+          "iri": "https://firebim.org/ontologies/fbo/be#LowRiseBuilding",
+          "prefixed": "fbo-be:LowRiseBuilding",
+          "label": "Low rise Building",
+          "definition": "Building of which the height of the building is lower than 10m",
+          "ontology": "fbo/be",
+          "ontology_title": "FBO Belgium",
+          "href": "/documentation/ontologies/fbo/be/#LowRiseBuilding"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/pt#LowRiseBuilding",
+          "prefixed": "fbo-pt:LowRiseBuilding",
+          "label": "Low-rise building",
+          "definition": "Height (H) ≤ 9 m",
+          "ontology": "fbo/pt",
+          "ontology_title": "FBO Portugal",
+          "href": "/documentation/ontologies/fbo/pt/#LowRiseBuilding"
+        }
+      ],
+      "countries": [
+        "be",
+        "pt"
+      ]
+    },
+    {
+      "id": "MaxAreaFireCompartment",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#MaxAreaFireCompartment",
+      "label": "MaxAreaFireCompartment",
+      "kind": "Quantity",
+      "ifc_classes": [
+        "IfcSpace",
+        "IfcSpatialZone",
+        "…"
+      ],
+      "ifc_entities": [
+        "IfcSpace",
+        "IfcSpatialZone",
+        "…"
+      ],
+      "pset_properties": [],
+      "data_type": null,
+      "value": null,
+      "is_buildingsmart": false,
+      "argumentation": null,
+      "interpretation": null,
+      "terms": [
+        {
+          "iri": "https://firebim.org/ontologies/fbo/lt#MaxAreaFireCompartment",
+          "prefixed": "fbo-lt:MaxAreaFireCompartment",
+          "label": "Maximum area of fire compartment",
+          "definition": "The area of the fire compartment is determined according to the formula Fg = Fs·G·cos(90KH)",
+          "ontology": "fbo/lt",
+          "ontology_title": "FBO Lithuania",
+          "href": "/documentation/ontologies/fbo/lt/#MaxAreaFireCompartment"
+        }
+      ],
+      "countries": [
+        "lt"
+      ]
+    },
+    {
+      "id": "MiddleRiseBuilding",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#MiddleRiseBuilding",
+      "label": "MiddleRiseBuilding",
+      "kind": "Object",
+      "ifc_classes": [
+        "IfcBuilding"
+      ],
+      "ifc_entities": [
+        "IfcBuilding"
+      ],
+      "pset_properties": [
+        "CPset_FireBIM.BuildingHeightClassification",
+        "Pset_BuidingCommon.FireProtectionClass"
+      ],
+      "data_type": "String",
+      "value": "MiddleRiseBuilding",
+      "is_buildingsmart": false,
+      "argumentation": "Cannot use IfcBuilding.Qto_BuildingBaseQuantities.Height (different measurement method)",
+      "interpretation": "Is FireProtectionClass a suitable property?",
+      "terms": [
+        {
+          "iri": "https://firebim.org/ontologies/fbo/be#MediumRiseBuilding",
+          "prefixed": "fbo-be:MediumRiseBuilding",
+          "label": "Medium rise building",
+          "definition": "Building of which the heigth is equal to or situated between 10 and 25 m",
+          "ontology": "fbo/be",
+          "ontology_title": "FBO Belgium",
+          "href": "/documentation/ontologies/fbo/be/#MediumRiseBuilding"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/pt#MideRiseBuilding",
+          "prefixed": "fbo-pt:MideRiseBuilding",
+          "label": "Mide-rise building",
+          "definition": "9 m < Height (H) ≤ 28 m",
+          "ontology": "fbo/pt",
+          "ontology_title": "FBO Portugal",
+          "href": "/documentation/ontologies/fbo/pt/#MideRiseBuilding"
+        }
+      ],
+      "countries": [
+        "be",
+        "pt"
+      ]
+    },
+    {
+      "id": "MinNumberOfExits",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#MinNumberOfExits",
+      "label": "MinNumberOfExits",
+      "kind": "Quantity",
+      "ifc_classes": [
+        "IfcSpace",
+        "IfcSpatialZone.FIRESAFETY",
+        "IfcZone"
+      ],
+      "ifc_entities": [
+        "IfcSpace",
+        "IfcSpatialZone",
+        "IfcZone"
+      ],
+      "pset_properties": [
+        "CPset_FireBIM.MinNumberOfExits"
+      ],
+      "data_type": "Integer",
+      "value": null,
+      "is_buildingsmart": false,
+      "argumentation": null,
+      "interpretation": null,
+      "terms": [
+        {
+          "iri": "https://firebim.org/ontologies/fbo/be#MinimalNumberOfExits",
+          "prefixed": "fbo-be:MinimalNumberOfExits",
+          "label": "Minimal number of exits for compartment",
+          "definition": null,
+          "ontology": "fbo/be",
+          "ontology_title": "FBO Belgium",
+          "href": "/documentation/ontologies/fbo/be/#MinimalNumberOfExits"
+        }
+      ],
+      "countries": [
+        "be"
+      ]
+    },
+    {
+      "id": "NumberOfExits",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#NumberOfExits",
+      "label": "NumberOfExits",
+      "kind": "Quantity",
+      "ifc_classes": [
+        "IfcSpace",
+        "IfcSpatialZone.FIRESAFETY",
+        "IfcZone"
+      ],
+      "ifc_entities": [
+        "IfcSpace",
+        "IfcSpatialZone",
+        "IfcZone"
+      ],
+      "pset_properties": [
+        "CPset_FireBIM.NumberOfExits"
+      ],
+      "data_type": "Integer",
+      "value": null,
+      "is_buildingsmart": false,
+      "argumentation": null,
+      "interpretation": null,
+      "terms": [
+        {
+          "iri": "https://firebim.org/ontologies/fbo/be#NumberOfExits",
+          "prefixed": "fbo-be:NumberOfExits",
+          "label": "Number of exits present",
+          "definition": null,
+          "ontology": "fbo/be",
+          "ontology_title": "FBO Belgium",
+          "href": "/documentation/ontologies/fbo/be/#NumberOfExits"
+        }
+      ],
+      "countries": [
+        "be"
+      ]
+    },
+    {
+      "id": "OccupancyTypeBuilding",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#OccupancyTypeBuilding",
+      "label": "OccupancyType (Building)",
+      "kind": "Property",
+      "ifc_classes": [
+        "IfcBuilding"
+      ],
+      "ifc_entities": [
+        "IfcBuilding"
+      ],
+      "pset_properties": [
+        "CPset_FireBIM.OccupancyType"
+      ],
+      "data_type": "String",
+      "value": null,
+      "is_buildingsmart": false,
+      "argumentation": null,
+      "interpretation": "The PT occupancies represent a fixed list, but applicable to buildings or parts of buildings. Are these parts compartments? Or Rooms?",
+      "terms": [
+        {
+          "iri": "https://firebim.org/ontologies/fbo/pt#CoexistenceOccupancyType",
+          "prefixed": "fbo-pt:CoexistenceOccupancyType",
+          "label": "Coexistence Occupancy Type",
+          "definition": null,
+          "ontology": "fbo/pt",
+          "ontology_title": "FBO Portugal",
+          "href": "/documentation/ontologies/fbo/pt/#CoexistenceOccupancyType"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/pt#ExclusiveOccupancyType",
+          "prefixed": "fbo-pt:ExclusiveOccupancyType",
+          "label": "Exclusive Occupancy Type",
+          "definition": "Depending on their use, buildings and premises may be for exclusive use when they are integrated into a single type of occupancy.",
+          "ontology": "fbo/pt",
+          "ontology_title": "FBO Portugal",
+          "href": "/documentation/ontologies/fbo/pt/#ExclusiveOccupancyType"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/pt#MixedOccupancyType",
+          "prefixed": "fbo-pt:MixedOccupancyType",
+          "label": "Mixed Occupancy Type",
+          "definition": "Depending on their use, buildings and premises may be mixed-use when they incorporate several standard occupancy.",
+          "ontology": "fbo/pt",
+          "ontology_title": "FBO Portugal",
+          "href": "/documentation/ontologies/fbo/pt/#MixedOccupancyType"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/pt#OccupancyType",
+          "prefixed": "fbo-pt:OccupancyType",
+          "label": "Occupancy (type of)",
+          "definition": "Classification given by the dominant use of any building or enclosure, or of each of its parts, in accordance with the provisions of Art. 8 of Legal Regime - Fire Safety in Buildings",
+          "ontology": "fbo/pt",
+          "ontology_title": "FBO Portugal",
+          "href": "/documentation/ontologies/fbo/pt/#OccupancyType"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/pt#OccupancyTypeI",
+          "prefixed": "fbo-pt:OccupancyTypeI",
+          "label": "OccupancyType I - Residential Building",
+          "definition": "Buildings or parts of buildings intended for single-family or multi-family housing, including common access spaces and non-residential areas reserved for the exclusive use of residents",
+          "ontology": "fbo/pt",
+          "ontology_title": "FBO Portugal",
+          "href": "/documentation/ontologies/fbo/pt/#OccupancyTypeI"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/pt#OccupancyTypeII",
+          "prefixed": "fbo-pt:OccupancyTypeII",
+          "label": "OccupancyType II - Garages and Car Parks",
+          "definition": "Buildings or parts of buildings intended exclusively for the collection of vehicles and their trailers off the public highway, or enclosed open-air spaces for the same purpose",
+          "ontology": "fbo/pt",
+          "ontology_title": "FBO Portugal",
+          "href": "/documentation/ontologies/fbo/pt/#OccupancyTypeII"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/pt#OccupancyTypeIII",
+          "prefixed": "fbo-pt:OccupancyTypeIII",
+          "label": "OccupancyType III - Administrative",
+          "definition": "Buildings or parts of buildings where administrative, customer service or service activities are carried out, namely offices, public offices, courts, registry offices, service counters, notaries, offices of liberal professionals, research spaces not dedicated to teaching, security and rescue force posts, excluding repair and maintenance workshops",
+          "ontology": "fbo/pt",
+          "ontology_title": "FBO Portugal",
+          "href": "/documentation/ontologies/fbo/pt/#OccupancyTypeIII"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/pt#OccupancyTypeIV",
+          "prefixed": "fbo-pt:OccupancyTypeIV",
+          "label": "OccupancyType IV - Schools",
+          "definition": "Buildings or parts of buildings open to the public, where education, teaching and training activities are carried out or recreational or educational activities are carried out for children and young people, which may or may not include resting or sleeping areas for participants in these actions and activities, namely schools at all levels of education, nurseries, kindergartens, training centers, leisure centers for children and young people and youth centers",
+          "ontology": "fbo/pt",
+          "ontology_title": "FBO Portugal",
+          "href": "/documentation/ontologies/fbo/pt/#OccupancyTypeIV"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/pt#OccupancyTypeIX",
+          "prefixed": "fbo-pt:OccupancyTypeIX",
+          "label": "OccupancyType IX - Sports and Leisure Facilities",
+          "definition": "Buildings, parts of buildings and enclosures, whether or not they are open to the public, used for sports and leisure activities, namely stadiums, riding arenas, hippodromes, velodromes, autodromes, motodromes, karting arenas, playing fields, camping and caravan parks, sports halls, swimming pools, water parks, skating rinks, gyms and saunas",
+          "ontology": "fbo/pt",
+          "ontology_title": "FBO Portugal",
+          "href": "/documentation/ontologies/fbo/pt/#OccupancyTypeIX"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/pt#OccupancyTypeV",
+          "prefixed": "fbo-pt:OccupancyTypeV",
+          "label": "OccupancyType V - Healthcare and Nursing Homes",
+          "definition": "Buildings or parts of buildings open to the public, intended for the performance of diagnostic procedures or the provision of healthcare, with or without hospitalization, for the support of elderly people or those with physical or mental disabilities, or where activities dedicated to such individuals are carried out, namely hospitals, clinics, medical offices, polyclinics, medical dispensaries, health centers, diagnostic centers, nursing centers, hemodialysis centers, or physical therapy centers, clinical analysis laboratories, as well as nursing homes, shelters, residences, shelters, and day centers with activities intended for the elderly",
+          "ontology": "fbo/pt",
+          "ontology_title": "FBO Portugal",
+          "href": "/documentation/ontologies/fbo/pt/#OccupancyTypeV"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/pt#OccupancyTypeVI",
+          "prefixed": "fbo-pt:OccupancyTypeVI",
+          "label": "OccupancyType VI - Public Entertainment and Assembly",
+          "definition": "Buildings, parts of buildings, itinerant or temporary venues and open-air venues that receive the public, intended for shows, public meetings, the showing of audiovisual media, dances, games, conferences, lectures, religious worship and exhibitions, whether or not they can be multipurpose, multipurpose and carry out the above activities on a non-permanent basis, namely theaters, cinemas, coliseums, bullrings, circuses, gambling halls, dance halls, nightclubs, bars with live music, recording studios, auditoriums, conference rooms, religious temples, multi-purpose pavilions and exhibition venues not classifiable under Occupancy Type X",
+          "ontology": "fbo/pt",
+          "ontology_title": "FBO Portugal",
+          "href": "/documentation/ontologies/fbo/pt/#OccupancyTypeVI"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/pt#OccupancyTypeVII",
+          "prefixed": "fbo-pt:OccupancyTypeVII",
+          "label": "OccupancyType VII - Hotels and Restaurants",
+          "definition": "Buildings or parts of buildings, receiving the public, providing temporary accommodation or carrying out food and beverage activities, whether or not under exclusive occupation, namely those intended for tourist developments, local accommodation, where applicable, food and beverage establishments, dormitories and, when not part of a school establishment, student residences and vacation camps, excluding camping and caravanning sites, which are considered to be occupancy type IX spaces",
+          "ontology": "fbo/pt",
+          "ontology_title": "FBO Portugal",
+          "href": "/documentation/ontologies/fbo/pt/#OccupancyTypeVII"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/pt#OccupancyTypeVIII",
+          "prefixed": "fbo-pt:OccupancyTypeVIII",
+          "label": "OccupancyType VIII - Commercial Establishments and Transport Terminal",
+          "definition": "Buildings or parts of buildings open to the public, occupied by commercial establishments where materials, products, equipment, or other goods are displayed and sold for consumption outside the establishment, or occupied by stations providing access to road, rail, sea, river, or air transportation, including intermodal terminals, which serve as a connecting space between public roads and these modes of transportation, with the exception of open-air boarding platforms",
+          "ontology": "fbo/pt",
+          "ontology_title": "FBO Portugal",
+          "href": "/documentation/ontologies/fbo/pt/#OccupancyTypeVIII"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/pt#OccupancyTypeX",
+          "prefixed": "fbo-pt:OccupancyTypeX",
+          "label": "OccupancyType X - Museums and Art Galleries",
+          "definition": "Buildings or parts of buildings, whether or not they are open to the public, intended for the exhibition of items of historical and cultural heritage or for scientific, cultural or technical exhibition, demonstration and dissemination activities, namely museums, art galleries, oceanariums, aquariums, zoological or botanical park facilities, exhibition spaces intended for scientific and technical dissemination, provided that they do not fall under type VI and IX occupancies",
+          "ontology": "fbo/pt",
+          "ontology_title": "FBO Portugal",
+          "href": "/documentation/ontologies/fbo/pt/#OccupancyTypeX"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/pt#OccupancyTypeXI",
+          "prefixed": "fbo-pt:OccupancyTypeXI",
+          "label": "OccupancyType XI- Libraries and Archives",
+          "definition": "Buildings or parts of buildings, whether or not they are open to the public, intended for document archiving, which may or may not make documents available for consultation or viewing on site, including libraries, media libraries, and archives",
+          "ontology": "fbo/pt",
+          "ontology_title": "FBO Portugal",
+          "href": "/documentation/ontologies/fbo/pt/#OccupancyTypeXI"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/pt#OccupancyTypeXII",
+          "prefixed": "fbo-pt:OccupancyTypeXII",
+          "label": "OccupancyType XII- Industrial Facility, Workshops and Warehouses",
+          "definition": "Buildings, parts of buildings or open-air enclosures, not normally open to the public, used for industrial activities or the storage of materials, substances, products or equipment, repair workshops and all services ancillary or complementary to these activities",
+          "ontology": "fbo/pt",
+          "ontology_title": "FBO Portugal",
+          "href": "/documentation/ontologies/fbo/pt/#OccupancyTypeXII"
+        }
+      ],
+      "countries": [
+        "pt"
+      ]
+    },
+    {
+      "id": "OccupancyTypeCompartment",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#OccupancyTypeCompartment",
+      "label": "OccupancyType (Compartment)",
+      "kind": "Property",
+      "ifc_classes": [
+        "IfcSpace",
+        "IfcSpatialZone.FIRESAFETY",
+        "IfcZone"
+      ],
+      "ifc_entities": [
+        "IfcSpace",
+        "IfcSpatialZone",
+        "IfcZone"
+      ],
+      "pset_properties": [
+        "CPset_FireBIM.OccupancyType"
+      ],
+      "data_type": "String",
+      "value": null,
+      "is_buildingsmart": false,
+      "argumentation": null,
+      "interpretation": "The PT occupancies represent a fixed list, but applicable to buildings or parts of buildings. Are these parts compartments? Or Rooms?",
+      "terms": [
+        {
+          "iri": "https://firebim.org/ontologies/fbo/pt#CoexistenceOccupancyType",
+          "prefixed": "fbo-pt:CoexistenceOccupancyType",
+          "label": "Coexistence Occupancy Type",
+          "definition": null,
+          "ontology": "fbo/pt",
+          "ontology_title": "FBO Portugal",
+          "href": "/documentation/ontologies/fbo/pt/#CoexistenceOccupancyType"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/pt#ExclusiveOccupancyType",
+          "prefixed": "fbo-pt:ExclusiveOccupancyType",
+          "label": "Exclusive Occupancy Type",
+          "definition": "Depending on their use, buildings and premises may be for exclusive use when they are integrated into a single type of occupancy.",
+          "ontology": "fbo/pt",
+          "ontology_title": "FBO Portugal",
+          "href": "/documentation/ontologies/fbo/pt/#ExclusiveOccupancyType"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/pt#MixedOccupancyType",
+          "prefixed": "fbo-pt:MixedOccupancyType",
+          "label": "Mixed Occupancy Type",
+          "definition": "Depending on their use, buildings and premises may be mixed-use when they incorporate several standard occupancy.",
+          "ontology": "fbo/pt",
+          "ontology_title": "FBO Portugal",
+          "href": "/documentation/ontologies/fbo/pt/#MixedOccupancyType"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/pt#OccupancyType",
+          "prefixed": "fbo-pt:OccupancyType",
+          "label": "Occupancy (type of)",
+          "definition": "Classification given by the dominant use of any building or enclosure, or of each of its parts, in accordance with the provisions of Art. 8 of Legal Regime - Fire Safety in Buildings",
+          "ontology": "fbo/pt",
+          "ontology_title": "FBO Portugal",
+          "href": "/documentation/ontologies/fbo/pt/#OccupancyType"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/pt#OccupancyTypeI",
+          "prefixed": "fbo-pt:OccupancyTypeI",
+          "label": "OccupancyType I - Residential Building",
+          "definition": "Buildings or parts of buildings intended for single-family or multi-family housing, including common access spaces and non-residential areas reserved for the exclusive use of residents",
+          "ontology": "fbo/pt",
+          "ontology_title": "FBO Portugal",
+          "href": "/documentation/ontologies/fbo/pt/#OccupancyTypeI"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/pt#OccupancyTypeII",
+          "prefixed": "fbo-pt:OccupancyTypeII",
+          "label": "OccupancyType II - Garages and Car Parks",
+          "definition": "Buildings or parts of buildings intended exclusively for the collection of vehicles and their trailers off the public highway, or enclosed open-air spaces for the same purpose",
+          "ontology": "fbo/pt",
+          "ontology_title": "FBO Portugal",
+          "href": "/documentation/ontologies/fbo/pt/#OccupancyTypeII"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/pt#OccupancyTypeIII",
+          "prefixed": "fbo-pt:OccupancyTypeIII",
+          "label": "OccupancyType III - Administrative",
+          "definition": "Buildings or parts of buildings where administrative, customer service or service activities are carried out, namely offices, public offices, courts, registry offices, service counters, notaries, offices of liberal professionals, research spaces not dedicated to teaching, security and rescue force posts, excluding repair and maintenance workshops",
+          "ontology": "fbo/pt",
+          "ontology_title": "FBO Portugal",
+          "href": "/documentation/ontologies/fbo/pt/#OccupancyTypeIII"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/pt#OccupancyTypeIV",
+          "prefixed": "fbo-pt:OccupancyTypeIV",
+          "label": "OccupancyType IV - Schools",
+          "definition": "Buildings or parts of buildings open to the public, where education, teaching and training activities are carried out or recreational or educational activities are carried out for children and young people, which may or may not include resting or sleeping areas for participants in these actions and activities, namely schools at all levels of education, nurseries, kindergartens, training centers, leisure centers for children and young people and youth centers",
+          "ontology": "fbo/pt",
+          "ontology_title": "FBO Portugal",
+          "href": "/documentation/ontologies/fbo/pt/#OccupancyTypeIV"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/pt#OccupancyTypeIX",
+          "prefixed": "fbo-pt:OccupancyTypeIX",
+          "label": "OccupancyType IX - Sports and Leisure Facilities",
+          "definition": "Buildings, parts of buildings and enclosures, whether or not they are open to the public, used for sports and leisure activities, namely stadiums, riding arenas, hippodromes, velodromes, autodromes, motodromes, karting arenas, playing fields, camping and caravan parks, sports halls, swimming pools, water parks, skating rinks, gyms and saunas",
+          "ontology": "fbo/pt",
+          "ontology_title": "FBO Portugal",
+          "href": "/documentation/ontologies/fbo/pt/#OccupancyTypeIX"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/pt#OccupancyTypeV",
+          "prefixed": "fbo-pt:OccupancyTypeV",
+          "label": "OccupancyType V - Healthcare and Nursing Homes",
+          "definition": "Buildings or parts of buildings open to the public, intended for the performance of diagnostic procedures or the provision of healthcare, with or without hospitalization, for the support of elderly people or those with physical or mental disabilities, or where activities dedicated to such individuals are carried out, namely hospitals, clinics, medical offices, polyclinics, medical dispensaries, health centers, diagnostic centers, nursing centers, hemodialysis centers, or physical therapy centers, clinical analysis laboratories, as well as nursing homes, shelters, residences, shelters, and day centers with activities intended for the elderly",
+          "ontology": "fbo/pt",
+          "ontology_title": "FBO Portugal",
+          "href": "/documentation/ontologies/fbo/pt/#OccupancyTypeV"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/pt#OccupancyTypeVI",
+          "prefixed": "fbo-pt:OccupancyTypeVI",
+          "label": "OccupancyType VI - Public Entertainment and Assembly",
+          "definition": "Buildings, parts of buildings, itinerant or temporary venues and open-air venues that receive the public, intended for shows, public meetings, the showing of audiovisual media, dances, games, conferences, lectures, religious worship and exhibitions, whether or not they can be multipurpose, multipurpose and carry out the above activities on a non-permanent basis, namely theaters, cinemas, coliseums, bullrings, circuses, gambling halls, dance halls, nightclubs, bars with live music, recording studios, auditoriums, conference rooms, religious temples, multi-purpose pavilions and exhibition venues not classifiable under Occupancy Type X",
+          "ontology": "fbo/pt",
+          "ontology_title": "FBO Portugal",
+          "href": "/documentation/ontologies/fbo/pt/#OccupancyTypeVI"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/pt#OccupancyTypeVII",
+          "prefixed": "fbo-pt:OccupancyTypeVII",
+          "label": "OccupancyType VII - Hotels and Restaurants",
+          "definition": "Buildings or parts of buildings, receiving the public, providing temporary accommodation or carrying out food and beverage activities, whether or not under exclusive occupation, namely those intended for tourist developments, local accommodation, where applicable, food and beverage establishments, dormitories and, when not part of a school establishment, student residences and vacation camps, excluding camping and caravanning sites, which are considered to be occupancy type IX spaces",
+          "ontology": "fbo/pt",
+          "ontology_title": "FBO Portugal",
+          "href": "/documentation/ontologies/fbo/pt/#OccupancyTypeVII"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/pt#OccupancyTypeVIII",
+          "prefixed": "fbo-pt:OccupancyTypeVIII",
+          "label": "OccupancyType VIII - Commercial Establishments and Transport Terminal",
+          "definition": "Buildings or parts of buildings open to the public, occupied by commercial establishments where materials, products, equipment, or other goods are displayed and sold for consumption outside the establishment, or occupied by stations providing access to road, rail, sea, river, or air transportation, including intermodal terminals, which serve as a connecting space between public roads and these modes of transportation, with the exception of open-air boarding platforms",
+          "ontology": "fbo/pt",
+          "ontology_title": "FBO Portugal",
+          "href": "/documentation/ontologies/fbo/pt/#OccupancyTypeVIII"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/pt#OccupancyTypeX",
+          "prefixed": "fbo-pt:OccupancyTypeX",
+          "label": "OccupancyType X - Museums and Art Galleries",
+          "definition": "Buildings or parts of buildings, whether or not they are open to the public, intended for the exhibition of items of historical and cultural heritage or for scientific, cultural or technical exhibition, demonstration and dissemination activities, namely museums, art galleries, oceanariums, aquariums, zoological or botanical park facilities, exhibition spaces intended for scientific and technical dissemination, provided that they do not fall under type VI and IX occupancies",
+          "ontology": "fbo/pt",
+          "ontology_title": "FBO Portugal",
+          "href": "/documentation/ontologies/fbo/pt/#OccupancyTypeX"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/pt#OccupancyTypeXI",
+          "prefixed": "fbo-pt:OccupancyTypeXI",
+          "label": "OccupancyType XI- Libraries and Archives",
+          "definition": "Buildings or parts of buildings, whether or not they are open to the public, intended for document archiving, which may or may not make documents available for consultation or viewing on site, including libraries, media libraries, and archives",
+          "ontology": "fbo/pt",
+          "ontology_title": "FBO Portugal",
+          "href": "/documentation/ontologies/fbo/pt/#OccupancyTypeXI"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/pt#OccupancyTypeXII",
+          "prefixed": "fbo-pt:OccupancyTypeXII",
+          "label": "OccupancyType XII- Industrial Facility, Workshops and Warehouses",
+          "definition": "Buildings, parts of buildings or open-air enclosures, not normally open to the public, used for industrial activities or the storage of materials, substances, products or equipment, repair workshops and all services ancillary or complementary to these activities",
+          "ontology": "fbo/pt",
+          "ontology_title": "FBO Portugal",
+          "href": "/documentation/ontologies/fbo/pt/#OccupancyTypeXII"
+        }
+      ],
+      "countries": [
+        "pt"
+      ]
+    },
+    {
+      "id": "OccupantsCompartment",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#OccupantsCompartment",
+      "label": "Occupants (Compartment)",
+      "kind": "Quantity",
+      "ifc_classes": [
+        "IfcSpace",
+        "IfcSpatialZone.FIRESAFETY",
+        "IfcZone"
+      ],
+      "ifc_entities": [
+        "IfcSpace",
+        "IfcSpatialZone",
+        "IfcZone"
+      ],
+      "pset_properties": [
+        "Pset_SpaceOccupancyRequirements.OccupancyNumber"
+      ],
+      "data_type": "Integer",
+      "value": null,
+      "is_buildingsmart": true,
+      "argumentation": null,
+      "interpretation": null,
+      "terms": [
+        {
+          "iri": "https://firebim.org/ontologies/fbo/be#NumberOccupants",
+          "prefixed": "fbo-be:NumberOccupants",
+          "label": "Number of occupants of a compartment",
+          "definition": "For rooms not accessible to the public, the number of users is at least equal to the surface area of the compartment/10. For rooms accessible to the public, the number of users is at least equal to the surface area of the compartment/3. If the number of users can be accurately determined based on fixed furniture, this surface area may be deducted. The number of users is then the sum of the accurately determined number and the number calculated based on the reduced surface area.",
+          "ontology": "fbo/be",
+          "ontology_title": "FBO Belgium",
+          "href": "/documentation/ontologies/fbo/be/#NumberOccupants"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo#NumberOccupants",
+          "prefixed": "fbo:NumberOccupants",
+          "label": "Number of Occupants",
+          "definition": null,
+          "ontology": "fbo/core",
+          "ontology_title": "FBO Core",
+          "href": "/documentation/ontologies/fbo/core/#NumberOccupants"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/dk#NumberOccupantsSpaceCompartment",
+          "prefixed": "fbo-dk:NumberOccupantsSpaceCompartment",
+          "label": "Number of Occupants per Compartment",
+          "definition": "Det antal personer, som den enkelte brandmæssige enhed er indrettet til, og som bl.a. angives på brandplaner og på pladsfordelingsplaner. Benyttes også som betegnelse for det dimensionsgivende antal personer, f.eks. angivet ved antal personer pr. m2 , som lægges til grund ved dimensionering af bredde af flugtveje, flugtvejspassager og døre til flugtveje samt ved evakueringsberegninger ved brandteknisk dimensionering.",
+          "ontology": "fbo/dk",
+          "ontology_title": "FBO Denmark",
+          "href": "/documentation/ontologies/fbo/dk/#NumberOccupantsSpaceCompartment"
+        }
+      ],
+      "countries": [
+        "be",
+        "core",
+        "dk"
+      ]
+    },
+    {
+      "id": "OccupantsFloor",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#OccupantsFloor",
+      "label": "Occupants (Floor)",
+      "kind": "Quantity",
+      "ifc_classes": [
+        "IfcBuildingStorey"
+      ],
+      "ifc_entities": [
+        "IfcBuildingStorey"
+      ],
+      "pset_properties": [
+        "Pset_SpaceOccupancyRequirements.OccupancyNumber"
+      ],
+      "data_type": "Decimal",
+      "value": null,
+      "is_buildingsmart": true,
+      "argumentation": null,
+      "interpretation": null,
+      "terms": [],
+      "countries": []
+    },
+    {
+      "id": "OccupantsRoom",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#OccupantsRoom",
+      "label": "Occupants (Room)",
+      "kind": "Quantity",
+      "ifc_classes": [
+        "IfcSpace"
+      ],
+      "ifc_entities": [
+        "IfcSpace"
+      ],
+      "pset_properties": [
+        "Pset_SpaceOccupancyRequirements.OccupancyNumber"
+      ],
+      "data_type": "Integer",
+      "value": null,
+      "is_buildingsmart": true,
+      "argumentation": null,
+      "interpretation": "LT: OccupantsOfRoom in Miro, but not in Notion",
+      "terms": [],
+      "countries": []
+    },
+    {
+      "id": "PartialCoefficient",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#PartialCoefficient",
+      "label": "PartialCoefficient",
+      "kind": "Property",
+      "ifc_classes": [
+        "???"
+      ],
+      "ifc_entities": [
+        "???"
+      ],
+      "pset_properties": [],
+      "data_type": null,
+      "value": null,
+      "is_buildingsmart": false,
+      "argumentation": null,
+      "interpretation": null,
+      "terms": [
+        {
+          "iri": "https://firebim.org/ontologies/fbo/lt#PartialCoefficient",
+          "prefixed": "fbo-lt:PartialCoefficient",
+          "label": "Partial coefficients for the fire safety assessment of a building",
+          "definition": "G1…G8 – partial coefficients for the fire safety assessment of a building, depending on the fire safety systems installed in the building and the capabilities of the fire rescue service; their numerical values are given in Table 2 of Annex 3 (https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/TAIS.388658/asr).\nThe values of the partial coefficients G3 and G4 shall only be applied with the approval of the state fire rescue service.",
+          "ontology": "fbo/lt",
+          "ontology_title": "FBO Lithuania",
+          "href": "/documentation/ontologies/fbo/lt/#PartialCoefficient"
+        }
+      ],
+      "countries": [
+        "lt"
+      ]
+    },
+    {
+      "id": "PubliclyAccessible",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#PubliclyAccessible",
+      "label": "PubliclyAccessible",
+      "kind": "Property",
+      "ifc_classes": [
+        "IfcSpace",
+        "IfcSpatialZone"
+      ],
+      "ifc_entities": [
+        "IfcSpace",
+        "IfcSpatialZone"
+      ],
+      "pset_properties": [
+        "Pset_SpaceCommon.PubliclyAccessible"
+      ],
+      "data_type": "Boolean",
+      "value": null,
+      "is_buildingsmart": true,
+      "argumentation": null,
+      "interpretation": null,
+      "terms": [],
+      "countries": []
+    },
+    {
+      "id": "SelfClosing",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#SelfClosing",
+      "label": "SelfClosing",
+      "kind": "Property",
+      "ifc_classes": [
+        "IfcDoor"
+      ],
+      "ifc_entities": [
+        "IfcDoor"
+      ],
+      "pset_properties": [
+        "Pset_DoorCommon.SelfClosing"
+      ],
+      "data_type": "Boolean",
+      "value": null,
+      "is_buildingsmart": true,
+      "argumentation": null,
+      "interpretation": null,
+      "terms": [
+        {
+          "iri": "https://firebim.org/ontologies/fbo#SelfClosing",
+          "prefixed": "fbo:SelfClosing",
+          "label": "Self-closing",
+          "definition": null,
+          "ontology": "fbo/core",
+          "ontology_title": "FBO Core",
+          "href": "/documentation/ontologies/fbo/core/#SelfClosing"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/nl#SelfClosing",
+          "prefixed": "fbo-nl:SelfClosing",
+          "label": "Self-closing",
+          "definition": "The door is provided with a self-closing mechanism (either triggered or always closing)",
+          "ontology": "fbo/nl",
+          "ontology_title": "FBO Netherlands",
+          "href": "/documentation/ontologies/fbo/nl/#SelfClosing"
+        }
+      ],
+      "countries": [
+        "core",
+        "nl"
+      ]
+    },
+    {
+      "id": "SmokeAndHeatExtraction",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#SmokeAndHeatExtraction",
+      "label": "SmokeAndHeatExtraction",
+      "kind": "Property",
+      "ifc_classes": [
+        "IfcSpace",
+        "IfcSpatialZone.FIRESAFETY",
+        "IfcZone"
+      ],
+      "ifc_entities": [
+        "IfcSpace",
+        "IfcSpatialZone",
+        "IfcZone"
+      ],
+      "pset_properties": [
+        "CPset_FireBIM.SmokeAndHeatExtraction"
+      ],
+      "data_type": "Boolean",
+      "value": null,
+      "is_buildingsmart": false,
+      "argumentation": null,
+      "interpretation": "Per space? For the full compartment?",
+      "terms": [
+        {
+          "iri": "https://firebim.org/ontologies/fbo/be#SmokeAndHeatExtraction",
+          "prefixed": "fbo-be:SmokeAndHeatExtraction",
+          "label": "Compartment-Smoke and heat extraction",
+          "definition": null,
+          "ontology": "fbo/be",
+          "ontology_title": "FBO Belgium",
+          "href": "/documentation/ontologies/fbo/be/#SmokeAndHeatExtraction"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/lt#SmokeAndHeatVentilationEquipment",
+          "prefixed": "fbo-lt:SmokeAndHeatVentilationEquipment",
+          "label": "Smoke and heat ventilation equipment",
+          "definition": "A system designed to improve the removal of combustible gases and heat from a building in the event of a fire. Smoke and heat are removed by mechanical ventilation equipment and/or natural convection.",
+          "ontology": "fbo/lt",
+          "ontology_title": "FBO Lithuania",
+          "href": "/documentation/ontologies/fbo/lt/#SmokeAndHeatVentilationEquipment"
+        }
+      ],
+      "countries": [
+        "be",
+        "lt"
+      ]
+    },
+    {
+      "id": "SmokeClass",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#SmokeClass",
+      "label": "SmokeClass",
+      "kind": "Property",
+      "ifc_classes": [
+        "???"
+      ],
+      "ifc_entities": [
+        "???"
+      ],
+      "pset_properties": [],
+      "data_type": "String",
+      "value": "S1, S2",
+      "is_buildingsmart": false,
+      "argumentation": null,
+      "interpretation": null,
+      "terms": [
+        {
+          "iri": "https://firebim.org/ontologies/fbo/nl#SmokeClass",
+          "prefixed": "fbo-nl:SmokeClass",
+          "label": "Reaction to fire; smoke class",
+          "definition": "Smoke class determined according to NEN-EN 13501-1.",
+          "ontology": "fbo/nl",
+          "ontology_title": "FBO Netherlands",
+          "href": "/documentation/ontologies/fbo/nl/#SmokeClass"
+        }
+      ],
+      "countries": [
+        "nl"
+      ]
+    },
+    {
+      "id": "Space",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#Space",
+      "label": "Space",
+      "kind": "Object",
+      "ifc_classes": [
+        "IfcSpace"
+      ],
+      "ifc_entities": [
+        "IfcSpace"
+      ],
+      "pset_properties": [],
+      "data_type": null,
+      "value": null,
+      "is_buildingsmart": true,
+      "argumentation": null,
+      "interpretation": null,
+      "terms": [
+        {
+          "iri": "https://firebim.org/ontologies/fbo/nl#Space",
+          "prefixed": "fbo-nl:Space",
+          "label": "space",
+          "definition": "covered, completely or partially enclosed by walls",
+          "ontology": "fbo/nl",
+          "ontology_title": "FBO Netherlands",
+          "href": "/documentation/ontologies/fbo/nl/#Space"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/pt#Room",
+          "prefixed": "fbo-pt:Room",
+          "label": "Room",
+          "definition": null,
+          "ontology": "fbo/pt",
+          "ontology_title": "FBO Portugal",
+          "href": "/documentation/ontologies/fbo/pt/#Room"
+        },
+        {
+          "iri": "https://firebim.org/ontologies/fbo/pt#Space",
+          "prefixed": "fbo-pt:Space",
+          "label": "Spaces",
+          "definition": "Interior and exterior areas of buildings or enclosures.",
+          "ontology": "fbo/pt",
+          "ontology_title": "FBO Portugal",
+          "href": "/documentation/ontologies/fbo/pt/#Space"
+        }
+      ],
+      "countries": [
+        "nl",
+        "pt"
+      ]
+    },
+    {
+      "id": "TeachingZone",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#TeachingZone",
+      "label": "TeachingZone",
+      "kind": "Property",
+      "ifc_classes": [
+        "IfcSpace"
+      ],
+      "ifc_entities": [
+        "IfcSpace"
+      ],
+      "pset_properties": [
+        "Pset_SpaceOccupancyRequirements.OccupancyType"
+      ],
+      "data_type": "String",
+      "value": "EDUCATION, TEACHING",
+      "is_buildingsmart": true,
+      "argumentation": null,
+      "interpretation": null,
+      "terms": [
+        {
+          "iri": "https://firebim.org/ontologies/fbo#TeachingZone",
+          "prefixed": "fbo:TeachingZone",
+          "label": "Teaching Zone",
+          "definition": "(this content has copy right, will be removed after WIP stage) zone (3.1.9) where a group of pupils or students are taught or study together https://www.iso.org/obp/ui/#iso:std:iso:6707:-4:ed-1:v1:en:terms:3.3.23",
+          "ontology": "fbo/core",
+          "ontology_title": "FBO Core",
+          "href": "/documentation/ontologies/fbo/core/#TeachingZone"
+        }
+      ],
+      "countries": [
+        "core"
+      ]
+    },
+    {
+      "id": "UsableAreaFireCompartment",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#UsableAreaFireCompartment",
+      "label": "UsableAreaFireCompartment",
+      "kind": "Quantity",
+      "ifc_classes": [
+        "IfcSpace",
+        "IfcSpatialZone.FIRESAFETY"
+      ],
+      "ifc_entities": [
+        "IfcSpace",
+        "IfcSpatialZone"
+      ],
+      "pset_properties": [
+        "CPset_FireBIM.UsableAreaFireCompartment"
+      ],
+      "data_type": "Area",
+      "value": null,
+      "is_buildingsmart": false,
+      "argumentation": null,
+      "interpretation": "The measurement method is described in the Dutch regulation. It is different from the NetFloorArea as defined by buildingSMART",
+      "terms": [
+        {
+          "iri": "https://firebim.org/ontologies/fbo/nl#UseableAreaFireCompartment",
+          "prefixed": "fbo-nl:UseableAreaFireCompartment",
+          "label": "Fire compartment usable area",
+          "definition": "The usable area of a firecompartment is measured at floor level, between the rising partitions that enclose the room or group of rooms in question. The following are not taken into account when determining the GO: — the area of parts of floors above which the net height is less than 1.5 m, with the exception of floors under stairs, ramps, etc.; — a lift shaft; — a stairwell, ring hole or void, if its area is greater than or equal to 4 m2; — a free-standing building structure (other than a staircase) if its horizontal cross-section is greater than or equal to 0.5 m2; — a service shaft, if its horizontal cross section is greater than or equal to 0.5 m2; — a load-bearing internal wall.",
+          "ontology": "fbo/nl",
+          "ontology_title": "FBO Netherlands",
+          "href": "/documentation/ontologies/fbo/nl/#UseableAreaFireCompartment"
+        }
+      ],
+      "countries": [
+        "nl"
+      ]
+    },
+    {
+      "id": "UsableAreaLiftShaft",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#UsableAreaLiftShaft",
+      "label": "UsableAreaLiftShaft",
+      "kind": "Quantity",
+      "ifc_classes": [
+        "IfcSpace",
+        "IfcSpatialZone.FIRESAFETY"
+      ],
+      "ifc_entities": [
+        "IfcSpace",
+        "IfcSpatialZone"
+      ],
+      "pset_properties": [
+        "CPset_FireBIM.UsableAreaFireCompartment"
+      ],
+      "data_type": "Area",
+      "value": null,
+      "is_buildingsmart": false,
+      "argumentation": null,
+      "interpretation": "The measurement method is described in the Dutch regulation. It is different from the NetFloorArea as defined by buildingSMART",
+      "terms": [],
+      "countries": []
+    },
+    {
+      "id": "WidthFreeDoors",
+      "iri": "https://firebim.org/ontologies/fbo/ifc#WidthFreeDoors",
+      "label": "WidthFreeDoors",
+      "kind": "Property",
+      "ifc_classes": [
+        "IfcDoor"
+      ],
+      "ifc_entities": [
+        "IfcDoor"
+      ],
+      "pset_properties": [
+        "Qto_DoorBaseQuantities.Width"
+      ],
+      "data_type": "Length",
+      "value": null,
+      "is_buildingsmart": true,
+      "argumentation": "To be combined with the identification of escape door or fire exits",
+      "interpretation": null,
+      "terms": [
+        {
+          "iri": "https://firebim.org/ontologies/fbo#WidthFreeDoors",
+          "prefixed": "fbo:WidthFreeDoors",
+          "label": "Free width Emergency escape door",
+          "definition": null,
+          "ontology": "fbo/core",
+          "ontology_title": "FBO Core",
+          "href": "/documentation/ontologies/fbo/core/#WidthFreeDoors"
+        }
+      ],
+      "countries": [
+        "core"
+      ]
+    }
+  ]
+}
