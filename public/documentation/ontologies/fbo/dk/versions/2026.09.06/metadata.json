@@ -1,0 +1,36 @@
+{
+  "ontology_family": "fbo",
+  "country": "dk",
+  "kind": "ontology",
+  "canonical_family_uri": "https://firebim.org/ontologies/fbo#",
+  "canonical_country_uri": "https://firebim.org/ontologies/fbo/dk#",
+  "version": {
+    "version": "2026.09.06",
+    "status": "draft",
+    "issued_at": "2026-09-06",
+    "published_at": "2026-09-06T06:44:50.350606Z",
+    "resource_filename": "fbo-dk.ttl",
+    "url": "https://firebim.org/documentation/ontologies/fbo/dk/versions/2026.09.06/metadata.json",
+    "ttl_url": "https://firebim.org/documentation/ontologies/fbo/dk/versions/2026.09.06/fbo-dk.ttl",
+    "terms_url": "https://firebim.org/documentation/ontologies/fbo/dk/versions/2026.09.06/terms.json",
+    "mapping_url": null,
+    "graph_uri": "https://api.firebim.org/ontologies/fbo/dk/versions/2026.09.06",
+    "ontology_uri": "https://firebim.org/ontologies/fbo/dk#",
+    "version_iri": "https://firebim.org/ontologies/fbo/dk/2026.09.06#",
+    "label": "FBO-DK – Denmark",
+    "description": "FBO Denmark release 2026.09.06 (issued 2026-09-06) — PROPOSAL. Implements fbo-dk-proposals.md: fire-safety units as sibling classes under FireSafetyUnit with part-of links, IFC-aligned booleans (IsExternal, IsFireExit), enumerations for UseCategory/RiskClass, ranges and units on every property, the terms the Danish flowcharts need, and provenance (derivedBy). Generated from the Notion export 2026.09.04 by make_fbo_dk_v2.py; the same changes are to be made in the Notion matrix.",
+    "imports": [
+      "https://firebim.org/ontologies/fbo#"
+    ],
+    "triple_count": 2615,
+    "class_count": 24,
+    "property_count": 112,
+    "individual_count": 36,
+    "subclass_count": 68,
+    "byte_size": 164724,
+    "sha256": "11d59eefc30688c90eca7f682f96d827828a6a28793fdeaff6899f0c834bc8ca",
+    "is_latest": true,
+    "is_stable": false,
+    "is_default": true
+  }
+}
