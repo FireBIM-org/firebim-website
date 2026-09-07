@@ -10,7 +10,7 @@ export default function Header() {
   const navigationLinks = [
     { href: "/#about", label: "About" },
     { href: "/#partners", label: "Partners" },
-    { href: "/reference_platform", label: "Platform" },
+    { href: "/firebim_platform", label: "Platform" },
     { href: "/documentation", label: "Docs" },
     { href: "/modeling-guideline", label: "Guideline" },
     { href: "/downloads", label: "Downloads" },
