@@ -133,14 +133,15 @@ export const OTHER_PLATFORMS: Platform[] = [
     maker: "D-studio (BE)",
     makerHref: "https://dstudio.be/",
     logo: "/assets/partners/dstudio-logo.png",
+    screenshot: "/assets/platforms/dst-demo-servicepenetrations.png",
     tagline:
       "Belgian consortium partner working on BIM applications for the verification and validation of fire-safety compliance.",
     description:
-      "D-studio's portfolio page describes the FireBIM ambition — a harmonised, open BIM platform that streamlines fire-safety assessments across European jurisdictions and lets compliance be verified from the early design phases. Product details have not been published yet — follow the link to the portfolio page.",
+      "D-studio's portfolio page describes the FireBIM ambition — a harmonised, open BIM platform that streamlines fire-safety assessments across European jurisdictions and lets compliance be verified from the early design phases. D-studio created a custom environment to proactively implement the FireBIM approach. This is an ontology-driven and configurable, modular system, where a building graph is generated based on the applicable rulesets. Two prototype applications were developed: a file-based and configurable compartment and escape route checker, using IFC and a series of mapping configurations; and secondly a custom plug-in for Autodesk Revit, where the building graph is directly generated from the Revit model and submitted to the FireBIM back-end. Results are visualised in the Revit environment, and a report is generated for the user.",
     availability: ["placeholder"],
     price: "To be announced",
     countries: ["BE"],
-    features: ["Compliance verification", "Early design phases", "European harmonisation"],
+    features: ["Compartment Area", "Number of Exits", "Escape Routing", "Service Penetrations", "Revit plug-in", "IFC-parser"],
     links: [{ label: "FireBIM at D-studio", href: "https://dstudio.be/language/en/portfolio/firebim-uk/" }],
     placeholder: true,
     status: "In development — no public release yet",
