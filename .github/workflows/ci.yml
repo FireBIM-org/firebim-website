@@ -1,0 +1,34 @@
+name: CI
+
+# No path filters: a required status check must report on every PR.
+on:
+  pull_request:
+  merge_group:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  # Add "ci" as the required status check in branch protection / rulesets.
+  ci:
+    name: ci
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+      - run: npm ci
+      - name: Lint
+        run: npx next lint
+      - name: Type check
+        run: npx tsc --noEmit
+      - name: Build
+        run: npm run build
