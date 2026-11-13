@@ -29,8 +29,8 @@
     "subclass_count": 69,
     "byte_size": 141076,
     "sha256": "6d661b532e88438f6b27ea013912b82ad54242a000f000b4507f13bfe896e57f",
-    "is_latest": true,
+    "is_latest": false,
     "is_stable": false,
-    "is_default": true
+    "is_default": false
   }
 }
